@@ -1,0 +1,292 @@
+{
+  "all_exact": true,
+  "examples": 15,
+  "checks": [
+    {
+      "source_run": "20261007T025650760669Z_1434950c_s0",
+      "namespace": "sealed_main_cap4_20261007",
+      "example": "first_final_9",
+      "depths": [
+        13,
+        26,
+        52,
+        104
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "f6e14c11feb738f10bf5cb9d4c16fe8a8b6f371174a8fd2b5ec9dfe9f83e457b",
+      "evaluator_sha256": {
+        "size9_ratio0.5_draw0.npz": "0e5171ab0b578dd4616d2b976c9123494766f6a5117ffc574628e796a437d304",
+        "size9_ratio1.0_draw0.npz": "648dfd73421500191c6b0c90df6216b8fe1a6a92055b3783a1aa65d7caaafe3e",
+        "size9_ratio2.0_draw0.npz": "e3de8205d3ebea381e1df563d96f44dbe643f0239b77b796f4395a794a98f5f1",
+        "size9_ratio4.0_draw0.npz": "7673edfc72a076afcaeb4eb680798225520f4c4c7e110e47ad87549ae9e5b83d"
+      }
+    },
+    {
+      "source_run": "20261007T025650760669Z_1434950c_s0",
+      "namespace": "sealed_main_cap4_20261007",
+      "example": "first_snake_37",
+      "depths": [
+        32,
+        128,
+        512,
+        646,
+        1024,
+        1292,
+        2584
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "6c0bf12f279d2c4c0670eaf25212f242cb88091bf05f43d9629289b007cf9097",
+      "evaluator_sha256": {
+        "witness_37_draw0.npz": "8e1e928d852c474b2b017fa8c5739c84d605ae51db43cf0a781aa642a1e96dec"
+      }
+    },
+    {
+      "source_run": "20261007T025651578943Z_3fac6ab2_s1",
+      "namespace": "sealed_main_cap4_20261007",
+      "example": "first_final_9",
+      "depths": [
+        13,
+        26,
+        52,
+        104
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "e628f705c576f310356712e5dd9ccc34668dc9527c6c728f1b6bf327fc1de8ce",
+      "evaluator_sha256": {
+        "size9_ratio0.5_draw0.npz": "4f9f23664b54f71bfcf0081c7d346f15224f5fc6a52dabb5d47a02ddee271313",
+        "size9_ratio1.0_draw0.npz": "257cc562a4ffaaef7a338c0585b9eb1058e33ac78db358d1a467631be7c259c2",
+        "size9_ratio2.0_draw0.npz": "58b0a78576fd4427b586619678ce5f75653447ce220e3abbe81cd9f4df96d8b8",
+        "size9_ratio4.0_draw0.npz": "b8beaf79f899606dc2a0e4385d693fbde6dadcbdc35033da31ab16546bab8cbf"
+      }
+    },
+    {
+      "source_run": "20261007T025651578943Z_3fac6ab2_s1",
+      "namespace": "sealed_main_cap4_20261007",
+      "example": "first_snake_37",
+      "depths": [
+        32,
+        128,
+        512,
+        646,
+        1024,
+        1292,
+        2584
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "bed562a92ded96d1b552f217e2e1c246c1b2c2743e8294dcd3ca381e279a43c5",
+      "evaluator_sha256": {
+        "witness_37_draw0.npz": "a2d18527be565ca6c2b09824b190d52053755e26f262dd8808af180a07fcbfc3"
+      }
+    },
+    {
+      "source_run": "20261007T025651586214Z_b21f95e9_s2",
+      "namespace": "sealed_main_cap4_20261007",
+      "example": "first_final_9",
+      "depths": [
+        13,
+        26,
+        52,
+        104
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "886e93d598cf32bfc68fb6c0766dfc07475d74c4886197089ed9297190ea465f",
+      "evaluator_sha256": {
+        "size9_ratio0.5_draw0.npz": "4f038f878e018ddc49f53b73d44752f14f28073d53ac3169864af55ae944c050",
+        "size9_ratio1.0_draw0.npz": "d808196b8c3b40da06e1760514ee9650e211bc279d290cb85f4b76c1412f2f85",
+        "size9_ratio2.0_draw0.npz": "170323ae3c08fcb6546dabc2b88bf1d21eaf934f78d188a2cba15c8e26cc648d",
+        "size9_ratio4.0_draw0.npz": "df26935d4cd71c82a715453443cb99e3f297b9a6214c5f9f59b09061861b3758"
+      }
+    },
+    {
+      "source_run": "20261007T025651586214Z_b21f95e9_s2",
+      "namespace": "sealed_main_cap4_20261007",
+      "example": "first_snake_37",
+      "depths": [
+        32,
+        128,
+        512,
+        646,
+        1024,
+        1292,
+        2584
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "b6dfd940dd1640dd97dccf2a0362ea7ebac5935dfb05e4f3ef67643cd8450d8b",
+      "evaluator_sha256": {
+        "witness_37_draw0.npz": "85d4f3eef3fd78cce0433d4d014e904add0a6cb1c8b5efc1fc4ace4135540cb2"
+      }
+    },
+    {
+      "source_run": "20261007T052244835360Z_9a81e6eb_s1",
+      "namespace": "sealed_eyes_20261007",
+      "example": "first_eye_witness_37",
+      "depths": [
+        32,
+        128,
+        512,
+        550,
+        1024,
+        1100,
+        2200
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "266e59bb493b330a70b34f2a320cd899e1d26aa32ad155c96d0f5f8106524876",
+      "evaluator_sha256": {
+        "eye_witness_37_draw0.npz": "5cf6ea810e8308c9ba98c2098500f0d46aabd0a1d1c88ddf6a44537618010e00"
+      }
+    },
+    {
+      "source_run": "20261007T052244856336Z_1c743572_s2",
+      "namespace": "sealed_eyes_20261007",
+      "example": "first_eye_witness_37",
+      "depths": [
+        32,
+        128,
+        512,
+        550,
+        1024,
+        1100,
+        2200
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "93b4ffb807a743e1438f0fe3bd14f85a533b4e534f33ee649ef06ff642fe13de",
+      "evaluator_sha256": {
+        "eye_witness_37_draw0.npz": "f7904a294f3320882ce6b413a9ba438f4a8702ff9c802c4de7d3eb9369caa228"
+      }
+    },
+    {
+      "source_run": "20261007T052244865495Z_3db0aeb4_s0",
+      "namespace": "sealed_eyes_20261007",
+      "example": "first_eye_witness_37",
+      "depths": [
+        32,
+        128,
+        512,
+        550,
+        1024,
+        1100,
+        2200
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "db49954f90488f3d6ba2c0fb205a4ed551d3b4925c97b66f8e3a3142a793fd50",
+      "evaluator_sha256": {
+        "eye_witness_37_draw0.npz": "d8b21db87da251ff49dbb688e6ab1eaa7d0d453a2d445ae09e9b4b4e6efab1cb"
+      }
+    },
+    {
+      "source_run": "20261007T053936157132Z_53ec7cd3_s0",
+      "namespace": "sealed_lib16_20261007",
+      "example": "first_snake_37",
+      "depths": [
+        32,
+        128,
+        512,
+        646,
+        1024,
+        1292,
+        2584
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "5fd200802b66ae7fc275bbf6baf235910c5511f585ae94141a353711938d3f0e",
+      "evaluator_sha256": {
+        "witness_37_draw0.npz": "a7acb2b748a76cf04ed11d0fedc2949aa0f420fd5306826ab6021ef340f62913"
+      }
+    },
+    {
+      "source_run": "20261007T053936191430Z_55131ebc_s2",
+      "namespace": "sealed_lib16_20261007",
+      "example": "first_snake_37",
+      "depths": [
+        32,
+        128,
+        512,
+        646,
+        1024,
+        1292,
+        2584
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "2bd7cffc771d6a550d4b12fd20efc0ff0a33624e1beeca6df4eae55deca53620",
+      "evaluator_sha256": {
+        "witness_37_draw0.npz": "af8e5164fc9359acbcebc283b8258f583558253e5adf9db2009362a68f79becb"
+      }
+    },
+    {
+      "source_run": "20261007T053936243064Z_630aa46f_s1",
+      "namespace": "sealed_lib16_20261007",
+      "example": "first_snake_37",
+      "depths": [
+        32,
+        128,
+        512,
+        646,
+        1024,
+        1292,
+        2584
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "6f6cff50d99dd6a141e2abfe763cbc4c2eea35f19cd2178a077e622ef9c43225",
+      "evaluator_sha256": {
+        "witness_37_draw0.npz": "10194d00cf46068e3fec24c0ef1a0b0bf2b4c2f32acd6f0b7efa528a0b666618"
+      }
+    },
+    {
+      "source_run": "20261007T071255749237Z_eeccb8cc_s2",
+      "namespace": "sealed_race_20261007",
+      "example": "first_race_witness_37",
+      "depths": [
+        32,
+        104,
+        128,
+        208,
+        416,
+        512,
+        1024
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "d046678ae6bc8125685192743062d6aead22b59cbf37ecb410760ce1016197ca",
+      "evaluator_sha256": {
+        "race_witness_37_draw0.npz": "4a08f1b780ae8ccd8b5f8ea3f36455f3792a9ea0fc0398867437a7230ad9707d"
+      }
+    },
+    {
+      "source_run": "20261007T071255960308Z_5ea1694f_s1",
+      "namespace": "sealed_race_20261007",
+      "example": "first_race_witness_37",
+      "depths": [
+        32,
+        104,
+        128,
+        208,
+        416,
+        512,
+        1024
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "33cd63d72d97694888885c7d74ebad37292a7bf4e81a3deb7682ba669b9fcb56",
+      "evaluator_sha256": {
+        "race_witness_37_draw0.npz": "2bdff0675674d008c641c603ba8e2d2e3ffcfbd34c0ea89322a75d58804f8b22"
+      }
+    },
+    {
+      "source_run": "20261007T071256064661Z_5e32ae36_s0",
+      "namespace": "sealed_race_20261007",
+      "example": "first_race_witness_37",
+      "depths": [
+        32,
+        104,
+        128,
+        208,
+        416,
+        512,
+        1024
+      ],
+      "exact_prediction_match": true,
+      "media_sha256": "cdfd8e8d4e4277f01bcb70e80deb9a9cfbc997e1164cff8d50863d734d37dd64",
+      "evaluator_sha256": {
+        "race_witness_37_draw0.npz": "30fe8549b064f7bfb7c5d61f0e11411b1291c819919ea23004473622cb35ad0d"
+      }
+    }
+  ],
+  "scope": "Predetermined draw0 animations match saved fixed-depth final predictions; no outcome-based selection"
+}

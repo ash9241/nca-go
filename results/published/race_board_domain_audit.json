@@ -1,0 +1,156 @@
+{
+  "namespace": "sealed_race_20261007",
+  "records": [
+    {
+      "file": "boards_13.npz",
+      "sha256": "563cd00676c511bce2dce7f5eef4b4bedfc8cf0c46025785c550642de01c8acc",
+      "boards": 256,
+      "playable_dimensions": [
+        5,
+        13
+      ],
+      "domain": "rectangular whole-board distribution"
+    },
+    {
+      "file": "boards_19.npz",
+      "sha256": "a02634ea6de7ba1917ec75800c46b509e405a2d829b5ad965217a483dfe55914",
+      "boards": 256,
+      "playable_dimensions": [
+        5,
+        19
+      ],
+      "domain": "rectangular whole-board distribution"
+    },
+    {
+      "file": "boards_25.npz",
+      "sha256": "e32165f2cb9a0954892e2074c429aa18512c7d5b2835a9887d1829b0c7db25e0",
+      "boards": 256,
+      "playable_dimensions": [
+        5,
+        25
+      ],
+      "domain": "rectangular whole-board distribution"
+    },
+    {
+      "file": "boards_37.npz",
+      "sha256": "8b2d31d1ef5230d329d8a659ba275b44acfe4235bbaa56efde390c18fb38f10a",
+      "boards": 256,
+      "playable_dimensions": [
+        5,
+        37
+      ],
+      "domain": "rectangular whole-board distribution"
+    },
+    {
+      "file": "boards_9.npz",
+      "sha256": "24d85052227282b257eec3d6a41c23f2188cde292017389dd826abea13faf478",
+      "boards": 256,
+      "playable_dimensions": [
+        5,
+        9
+      ],
+      "domain": "rectangular whole-board distribution"
+    },
+    {
+      "file": "cycle_pairs_13.npz",
+      "sha256": "6fd913e55b771c81644ff290715288903ae5917a4c36a02d49203afef00cdca7",
+      "boards": 32,
+      "playable_dimensions": [
+        13,
+        13
+      ],
+      "domain": "full square paired diagnostic"
+    },
+    {
+      "file": "cycle_pairs_19.npz",
+      "sha256": "6742eda3356eaab1183ff04319f22278fb248d4ff359b8ae7d9106514a35dbfb",
+      "boards": 32,
+      "playable_dimensions": [
+        19,
+        19
+      ],
+      "domain": "full square paired diagnostic"
+    },
+    {
+      "file": "cycle_pairs_25.npz",
+      "sha256": "0b9042c7d77dec1eef7ca5b9a546e043165f249e45a062a72e82a0b61f1e8a02",
+      "boards": 32,
+      "playable_dimensions": [
+        25,
+        25
+      ],
+      "domain": "full square paired diagnostic"
+    },
+    {
+      "file": "cycle_pairs_37.npz",
+      "sha256": "d65d25b67eba0f1dac5874673c5d2a1efc4d20096a9f7f9eb7e033a4119878ef",
+      "boards": 32,
+      "playable_dimensions": [
+        37,
+        37
+      ],
+      "domain": "full square paired diagnostic"
+    },
+    {
+      "file": "cycle_pairs_9.npz",
+      "sha256": "67291926fdaf0e85d925550841a64a39b94e757b04f322967c7386431075dcf8",
+      "boards": 32,
+      "playable_dimensions": [
+        9,
+        9
+      ],
+      "domain": "full square paired diagnostic"
+    },
+    {
+      "file": "race_witness_13.npz",
+      "sha256": "4a05c6c6b5d0fc8af9dc87c16084ee6149b4bae6a07fdfc8bf0b7bb3a51b750b",
+      "boards": 32,
+      "playable_dimensions": [
+        13,
+        13
+      ],
+      "domain": "full square paired diagnostic"
+    },
+    {
+      "file": "race_witness_19.npz",
+      "sha256": "17b0d96c81f154159fbf6f5a9ed1a4100c6035910d3216dcf0a9735e19cd173e",
+      "boards": 32,
+      "playable_dimensions": [
+        19,
+        19
+      ],
+      "domain": "full square paired diagnostic"
+    },
+    {
+      "file": "race_witness_25.npz",
+      "sha256": "7f30eba3d070eb7bbd85b754f076d1861e44f380d5404320c9781f91db74d65d",
+      "boards": 32,
+      "playable_dimensions": [
+        25,
+        25
+      ],
+      "domain": "full square paired diagnostic"
+    },
+    {
+      "file": "race_witness_37.npz",
+      "sha256": "822b7b5e9317285d1be9fd8d36dbcef2f835493b6c7d4714578895422b9b760f",
+      "boards": 32,
+      "playable_dimensions": [
+        37,
+        37
+      ],
+      "domain": "full square paired diagnostic"
+    },
+    {
+      "file": "race_witness_9.npz",
+      "sha256": "d9ff018a1e392e31210a730d898942d9d21ba10bef376f2f95682242fd8558b5",
+      "boards": 32,
+      "playable_dimensions": [
+        9,
+        9
+      ],
+      "domain": "full square paired diagnostic"
+    }
+  ],
+  "scope": "Board-domain annotation clarification;no changes to data,labels,checkpoints or predictions"
+}

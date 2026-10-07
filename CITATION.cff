@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, data, or analysis, please cite this research software release and the relevant upstream work."
+type: software
+title: "NCA Go: Stability and size generalization in local neural liberty counting"
+authors:
+  - family-names: Das
+    given-names: Aishwarya
+    alias: ash9241
+version: 1.0.0
+date-released: 2026-10-07
+url: "https://github.com/ash9241/nca-go"
+repository-code: "https://github.com/ash9241/nca-go"
+license: MIT
+keywords:
+  - neural cellular automata
+  - algorithmic reasoning
+  - out-of-distribution generalization
+  - Go
+  - reproducibility
+abstract: >-
+  An empirical study of stable local recurrent computation and its limits on
+  distinct Go-liberty counting. Includes matched architecture comparisons,
+  distant-edit witnesses, exact local references, and a maze positive control.

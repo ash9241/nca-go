@@ -1,0 +1,11 @@
+{
+  "checks_passed": 14,
+  "checks_command": "python -m pytest tests/test_maze_control.py tests/test_nca.py -q",
+  "exact_continuation_checked": true,
+  "saved_small_qualifications_rescored": 12,
+  "saved_ood_trials_rescored": 24,
+  "animations_final_predictions_match_saved_evaluation": 3,
+  "remote_backup_file_hashes_verified": 101,
+  "cloud_worker_and_disk_deleted": true,
+  "all_report_images_loaded_in_browser": true
+}

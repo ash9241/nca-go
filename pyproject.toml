@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ncago"
+version = "0.1.0"
+description = "Reproducible local neural cellular automata experiments for Go"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "jax==0.6.2", "flax==0.10.6", "optax==0.2.5", "numpy==2.2.6",
+  "numba==0.61.2", "matplotlib==3.10.3", "imageio==2.37.0",
+  "pandas==2.2.3", "pytest==8.4.1", "PyYAML==6.0.2",
+  "sgfmill==1.1.1", "tqdm==4.67.1"
+]
+
+[project.scripts]
+ncago = "ncago.experiments.run:main"
+
+[tool.setuptools.packages.find]
+include = ["ncago*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

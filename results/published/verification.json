@@ -1,0 +1,9 @@
+{
+  "tests_passed": 74,
+  "go_headline_evaluations_independently_rescored": 27,
+  "go_animation_traces_matched": 15,
+  "maze_ood_trials_rescored": 24,
+  "maze_small_qualifications_rescored": 12,
+  "archive_file_hashes_verified": 15272,
+  "source_snapshot_policy": "Original training-code archives retained; historical revisions predate the public repository."
+}

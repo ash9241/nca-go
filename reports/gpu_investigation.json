@@ -1,0 +1,4012 @@
+{
+  "workers": [
+    {
+      "name": "ncago-a100-verify-20261006",
+      "id": "6446765520848481762",
+      "creationTimestamp": "2026-10-06T12:59:10.079-07:00",
+      "zone": "https://www.googleapis.com/compute/v1/projects/REDACTED_CLOUD_PROJECT/zones/us-central1-c",
+      "machineType": "https://www.googleapis.com/compute/v1/projects/REDACTED_CLOUD_PROJECT/zones/us-central1-c/machineTypes/a2-highgpu-1g",
+      "guestAccelerators": [
+        {
+          "acceleratorCount": 1,
+          "acceleratorType": "https://www.googleapis.com/compute/v1/projects/REDACTED_CLOUD_PROJECT/zones/us-central1-c/acceleratorTypes/nvidia-tesla-a100"
+        }
+      ],
+      "labels": {
+        "gpu-experiment": "verification",
+        "task": "ncago"
+      },
+      "scheduling": {
+        "automaticRestart": false,
+        "instanceTerminationAction": "STOP",
+        "maxRunDuration": {
+          "nanos": 0,
+          "seconds": "7200"
+        },
+        "onHostMaintenance": "TERMINATE",
+        "preemptible": false,
+        "provisioningModel": "STANDARD"
+      },
+      "status": "RUNNING"
+    },
+    {
+      "creationTimestamp": "2026-10-06T11:12:52.000-07:00",
+      "guestAccelerators": [
+        {
+          "acceleratorCount": 1,
+          "acceleratorType": "https://www.googleapis.com/compute/v1/projects/REDACTED_CLOUD_PROJECT/zones/us-west1-b/acceleratorTypes/nvidia-tesla-a100"
+        }
+      ],
+      "id": "7272503933038789836",
+      "labels": {
+        "purpose": "learnability",
+        "workload": "ncago"
+      },
+      "machineType": "https://www.googleapis.com/compute/v1/projects/REDACTED_CLOUD_PROJECT/zones/us-west1-b/machineTypes/a2-highgpu-1g",
+      "name": "ncago-a100-20261006",
+      "scheduling": {
+        "automaticRestart": false,
+        "instanceTerminationAction": "STOP",
+        "maxRunDuration": {
+          "nanos": 0,
+          "seconds": "14400"
+        },
+        "onHostMaintenance": "TERMINATE",
+        "preemptible": false,
+        "provisioningModel": "STANDARD"
+      },
+      "status": "RUNNING",
+      "zone": "https://www.googleapis.com/compute/v1/projects/REDACTED_CLOUD_PROJECT/zones/us-west1-b"
+    }
+  ],
+  "scope": "Training/validation investigation; sealed G1 and larger final tests are separate",
+  "experiments": [
+    {
+      "run": "20261006T182032833458Z_b747cb06_s0",
+      "label": "C32, ce late | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 32,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final update; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 1024,
+        "training_steps": 6000,
+        "validation_count": 256,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.741253831510617,
+            "stone_accuracy": 0.7324433430592749,
+            "target_chain_exact": 0.4755859375,
+            "per_class_accuracy": [
+              0.9959176428824991,
+              0.45865930357416784,
+              0.6471323644319424,
+              0.8633060151538581
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.36446937503650007,
+            "stone_accuracy": 0.3674807146568608,
+            "target_chain_exact": 0.01171875,
+            "per_class_accuracy": [
+              0.25452609158679446,
+              0.19818990642736617,
+              0.4761681512736365,
+              0.5289933508582032
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.2970385602672715,
+            "stone_accuracy": 0.30464846716495464,
+            "target_chain_exact": 0.0029296875,
+            "per_class_accuracy": [
+              0.026624068157614485,
+              0.012885411872986655,
+              0.5924363181747148,
+              0.5562084428637699
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.7205795646815277,
+            "stone_accuracy": 0.7047744919874442,
+            "target_chain_exact": 0.42578125,
+            "per_class_accuracy": [
+              0.9959448499594485,
+              0.41838046272493573,
+              0.6012012012012012,
+              0.8667917448405253
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.3569169225032657,
+            "stone_accuracy": 0.3641169667933256,
+            "target_chain_exact": 0.03125,
+            "per_class_accuracy": [
+              0.27899432278994324,
+              0.17416452442159383,
+              0.46606606606606604,
+              0.5084427767354597
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.2893123624589925,
+            "stone_accuracy": 0.3100941681810672,
+            "target_chain_exact": 0.0,
+            "per_class_accuracy": [
+              0.029197080291970802,
+              0.016066838046272493,
+              0.5747747747747748,
+              0.5372107567229518
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.25072572244336744,
+            "stone_accuracy": 0.2180602006688963,
+            "target_chain_exact": 0.16796875,
+            "per_class_accuracy": [
+              0.9842141386410432,
+              0.0032013969732246797,
+              0.007654455986878075,
+              0.007832898172323759
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.12225419400251278,
+            "stone_accuracy": 0.11727982162764772,
+            "target_chain_exact": 0.0,
+            "per_class_accuracy": [
+              0.2367879203843514,
+              0.0005820721769499418,
+              0.08802624384909787,
+              0.16362053959965187
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.23604126733246417,
+            "stone_accuracy": 0.2463768115942029,
+            "target_chain_exact": 0.0,
+            "per_class_accuracy": [
+              0.026767330130404943,
+              0.002328288707799767,
+              0.3542919628212138,
+              0.5607774876704381
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "cb941a8cb7e7220fd7736cb450332bbf393b30b7"
+    },
+    {
+      "run": "20261006T182249599023Z_6e133329_s0",
+      "label": "C64, ce late | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final update; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 1024,
+        "training_steps": 6000,
+        "validation_count": 256,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9931440074288305,
+            "stone_accuracy": 0.992965346336784,
+            "target_chain_exact": 0.9755859375,
+            "per_class_accuracy": [
+              0.9973375931842385,
+              0.9794447001073784,
+              0.9970307860603219,
+              0.9987629503633834
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.4976812882132483,
+            "stone_accuracy": 0.5118909628682201,
+            "target_chain_exact": 0.4599609375,
+            "per_class_accuracy": [
+              0.0,
+              0.002914557447461267,
+              0.9878105954055321,
+              1.0
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.3018831067354274,
+            "stone_accuracy": 0.31156321195891123,
+            "target_chain_exact": 0.25390625,
+            "per_class_accuracy": [
+              0.0,
+              0.0,
+              0.20753242694170965,
+              1.0
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9902974716209809,
+            "stone_accuracy": 0.9900875598876591,
+            "target_chain_exact": 0.9609375,
+            "per_class_accuracy": [
+              0.9951338199513382,
+              0.993573264781491,
+              1.0,
+              0.9724828017510945
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.4960927328042821,
+            "stone_accuracy": 0.534941351396002,
+            "target_chain_exact": 0.46875,
+            "per_class_accuracy": [
+              0.0,
+              0.009640102827763496,
+              0.990990990990991,
+              0.983739837398374
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.2903903903903904,
+            "stone_accuracy": 0.3086073021642161,
+            "target_chain_exact": 0.25390625,
+            "per_class_accuracy": [
+              0.0,
+              0.0,
+              0.16156156156156157,
+              1.0
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.28785730484216904,
+            "stone_accuracy": 0.2562616127833519,
+            "target_chain_exact": 0.2734375,
+            "per_class_accuracy": [
+              1.0,
+              0.002910360884749709,
+              0.057135046473482776,
+              0.09138381201044386
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.07643491705927913,
+            "stone_accuracy": 0.07833519137866964,
+            "target_chain_exact": 0.07421875,
+            "per_class_accuracy": [
+              0.0,
+              0.0,
+              0.0005467468562055768,
+              0.3051929213809109
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.25,
+            "stone_accuracy": 0.2561872909698997,
+            "target_chain_exact": 0.25,
+            "per_class_accuracy": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "cb941a8cb7e7220fd7736cb450332bbf393b30b7"
+    },
+    {
+      "run": "20261006T182523717318Z_fc564a74_s0",
+      "label": "C64, ce late async, curriculum | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "curriculum": true,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final update; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 1024,
+        "training_steps": 6000,
+        "validation_count": 256,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 0
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9436709534498599,
+            "stone_accuracy": 0.9421239857708142,
+            "target_chain_exact": 0.8629557291666666,
+            "per_class_accuracy": [
+              0.9990533664655071,
+              0.9983637572224779,
+              0.8762306610407875,
+              0.9010360290706666
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.6451784600787659,
+            "stone_accuracy": 0.644829929253767,
+            "target_chain_exact": 0.3616536458333333,
+            "per_class_accuracy": [
+              0.5961424683469412,
+              0.15038093777164185,
+              0.9957284992446738,
+              0.8384619349518067
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.3575895986621866,
+            "stone_accuracy": 0.3674673914491653,
+            "target_chain_exact": 0.057291666666666664,
+            "per_class_accuracy": [
+              0.0024849130280440185,
+              0.032622590376847165,
+              0.8248163775589936,
+              0.5704345136848618
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9348569399228651,
+            "stone_accuracy": 0.9300071589845257,
+            "target_chain_exact": 0.84375,
+            "per_class_accuracy": [
+              0.9991889699918897,
+              0.9985004284490145,
+              0.8882882882882882,
+              0.8534500729622682
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.61698585607385,
+            "stone_accuracy": 0.6305963984800925,
+            "target_chain_exact": 0.3372395833333333,
+            "per_class_accuracy": [
+              0.5104082184374156,
+              0.18380462724935734,
+              0.9919919919919921,
+              0.7817385866166354
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.34547969433586817,
+            "stone_accuracy": 0.37375406134699046,
+            "target_chain_exact": 0.041666666666666664,
+            "per_class_accuracy": [
+              0.0016220600162206002,
+              0.031276778063410456,
+              0.827027027027027,
+              0.5219929122368147
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.27588107885846,
+            "stone_accuracy": 0.24332961724266075,
+            "target_chain_exact": 0.2721354166666667,
+            "per_class_accuracy": [
+              1.0,
+              0.05083430345362825,
+              0.01758702387461272,
+              0.035102988105599066
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.4240435299528127,
+            "stone_accuracy": 0.4052025269416574,
+            "target_chain_exact": 0.2265625,
+            "per_class_accuracy": [
+              0.9656829100892245,
+              0.04724485836243694,
+              0.5711682157827593,
+              0.1120781355768301
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.25180835012254327,
+            "stone_accuracy": 0.2641397250092902,
+            "target_chain_exact": 0.015625,
+            "per_class_accuracy": [
+              0.04037977579501258,
+              0.08634070624757471,
+              0.49544377619828683,
+              0.3850691422492989
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "cb941a8cb7e7220fd7736cb450332bbf393b30b7"
+    },
+    {
+      "run": "20261006T182750814613Z_6009e6b8_s0",
+      "label": "C64, ce late async, replay, curriculum | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "curriculum": true,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": true,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final update; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 1024,
+        "training_steps": 6000,
+        "validation_count": 256,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 3000
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.8432439793834489,
+            "stone_accuracy": 0.8407077287927841,
+            "target_chain_exact": 0.6761067708333334,
+            "per_class_accuracy": [
+              0.9550349071115845,
+              0.9531625504934294,
+              0.4910142209720269,
+              0.9737642389567549
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.8458219823052779,
+            "stone_accuracy": 0.8431591990087534,
+            "target_chain_exact": 0.5904947916666666,
+            "per_class_accuracy": [
+              0.9582297952904982,
+              0.9501457278723731,
+              0.5283117153721936,
+              0.9466006906860471
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8416248180043505,
+            "stone_accuracy": 0.8385093995230292,
+            "target_chain_exact": 0.5091145833333334,
+            "per_class_accuracy": [
+              0.9643237486687966,
+              0.9339366978575446,
+              0.5553992811376778,
+              0.9128395443533838
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.8483609520366912,
+            "stone_accuracy": 0.8364447381463737,
+            "target_chain_exact": 0.6809895833333334,
+            "per_class_accuracy": [
+              0.9656663963233306,
+              0.9706512425021424,
+              0.4856856856856857,
+              0.9714404836356056
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.8501880417669992,
+            "stone_accuracy": 0.8387025717275179,
+            "target_chain_exact": 0.5846354166666666,
+            "per_class_accuracy": [
+              0.9670181130035145,
+              0.9659383033419023,
+              0.5201201201201201,
+              0.9476756306024599
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8457077662237883,
+            "stone_accuracy": 0.8342970427886999,
+            "target_chain_exact": 0.4791666666666667,
+            "per_class_accuracy": [
+              0.9680994863476616,
+              0.9507283633247644,
+              0.5463463463463464,
+              0.9176568688763811
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.48125253351993774,
+            "stone_accuracy": 0.45603864734299515,
+            "target_chain_exact": 0.2825520833333333,
+            "per_class_accuracy": [
+              0.9959963395104096,
+              0.26426076833527357,
+              0.16238381629305632,
+              0.5023692099410115
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.47615360912076254,
+            "stone_accuracy": 0.45071225071225074,
+            "target_chain_exact": 0.2786458333333333,
+            "per_class_accuracy": [
+              0.9970258522077328,
+              0.26309662398137373,
+              0.15846546382358304,
+              0.48602649647036067
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.46294468698501756,
+            "stone_accuracy": 0.4372352285395764,
+            "target_chain_exact": 0.2552083333333333,
+            "per_class_accuracy": [
+              0.9969114619080303,
+              0.23341094295692666,
+              0.16037907782030256,
+              0.46107726525481096
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "cb941a8cb7e7220fd7736cb450332bbf393b30b7"
+    },
+    {
+      "run": "20261006T183000035979Z_8f76ff61_s0",
+      "label": "C64, ce late async, normalized, replay, curriculum | target chain | seed 0",
+      "status": "failed",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "curriculum": true,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "noise": false,
+        "normalization_groups": 4,
+        "profile": "diagnostic",
+        "replay": true,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final update; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 1024,
+        "training_steps": 6000,
+        "validation_count": 256,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 3000
+      },
+      "measurements": {},
+      "error": "Nonfinite rollout prediction",
+      "source_commit": "cb941a8cb7e7220fd7736cb450332bbf393b30b7"
+    },
+    {
+      "run": "20261006T183020457839Z_0eac888d_s0",
+      "label": "C64, mse late | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final update; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 1024,
+        "training_steps": 6000,
+        "validation_count": 256,
+        "variants": [
+          "mse_late"
+        ],
+        "warmup_steps": 0
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9698650368791896,
+            "stone_accuracy": 0.9688636636156521,
+            "target_chain_exact": 0.9541015625,
+            "per_class_accuracy": [
+              1.0,
+              0.9975456358337168,
+              0.9903109860915769,
+              0.8916035255914644
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.7330471579908602,
+            "stone_accuracy": 0.7226507854030937,
+            "target_chain_exact": 0.4970703125,
+            "per_class_accuracy": [
+              0.9936102236421726,
+              0.10308329498389324,
+              0.8845132051883107,
+              0.9509819081490645
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.25539764381025615,
+            "stone_accuracy": 0.2639593908629442,
+            "target_chain_exact": 0.24609375,
+            "per_class_accuracy": [
+              0.003194888178913738,
+              0.012732014112593957,
+              0.00922019065478981,
+              0.9964434822947271
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9536934683276147,
+            "stone_accuracy": 0.9507682141087064,
+            "target_chain_exact": 0.9296875,
+            "per_class_accuracy": [
+              1.0,
+              1.0,
+              0.9723723723723724,
+              0.8424015009380863
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.7191573269489111,
+            "stone_accuracy": 0.7089046753675863,
+            "target_chain_exact": 0.46484375,
+            "per_class_accuracy": [
+              0.9927007299270073,
+              0.10475578406169665,
+              0.8954954954954955,
+              0.8836772983114447
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.2560645240477351,
+            "stone_accuracy": 0.2704444077317033,
+            "target_chain_exact": 0.23046875,
+            "per_class_accuracy": [
+              0.0032441200324412004,
+              0.012853470437017995,
+              0.014414414414414415,
+              0.9937460913070669
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.2530407931321112,
+            "stone_accuracy": 0.21976960237829804,
+            "target_chain_exact": 0.25390625,
+            "per_class_accuracy": [
+              1.0,
+              0.002037252619324796,
+              0.00519409513395298,
+              0.004931824775166811
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.32386387472275274,
+            "stone_accuracy": 0.294017094017094,
+            "target_chain_exact": 0.2109375,
+            "per_class_accuracy": [
+              0.988675360329444,
+              0.0005820721769499418,
+              0.08310552214324768,
+              0.22309254424136932
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.2515308010903997,
+            "stone_accuracy": 0.25782237086584914,
+            "target_chain_exact": 0.24609375,
+            "per_class_accuracy": [
+              0.001029512697323267,
+              0.0,
+              0.00683433570256971,
+              0.9982593559617058
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "cb941a8cb7e7220fd7736cb450332bbf393b30b7"
+    },
+    {
+      "run": "20261006T183040464368Z_91e38925_s0",
+      "label": "C64, ce late, EMA + decay | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "gated": false,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 2048,
+        "training_steps": 12000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 1.0,
+            "stone_accuracy": 1.0,
+            "target_chain_exact": 1.0,
+            "per_class_accuracy": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.7211944653158151,
+            "stone_accuracy": 0.758315944519455,
+            "target_chain_exact": 0.421875,
+            "per_class_accuracy": [
+              0.0,
+              0.9172062904717854,
+              0.9681284079563781,
+              0.9994431628350966
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.4414046742252641,
+            "stone_accuracy": 0.46111042919684136,
+            "target_chain_exact": 0.33056640625,
+            "per_class_accuracy": [
+              0.0,
+              0.00393154486586494,
+              0.7618462483680208,
+              0.9998409036671705
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9970401679704175,
+            "stone_accuracy": 0.9968367264173899,
+            "target_chain_exact": 0.99609375,
+            "per_class_accuracy": [
+              1.0,
+              1.0,
+              0.9976669582968796,
+              0.99049371358479
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.7184178998243039,
+            "stone_accuracy": 0.7702165625760402,
+            "target_chain_exact": 0.412109375,
+            "per_class_accuracy": [
+              0.0,
+              0.9205215771499534,
+              0.9629629629629629,
+              0.9901870591842993
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.4292762301784646,
+            "stone_accuracy": 0.4639467921161489,
+            "target_chain_exact": 0.322265625,
+            "per_class_accuracy": [
+              0.0,
+              0.007451102142191866,
+              0.7191601049868767,
+              0.99049371358479
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.2686269695007106,
+            "stone_accuracy": 0.25426162512425904,
+            "target_chain_exact": 0.265625,
+            "per_class_accuracy": [
+              1.0,
+              0.008375451263537906,
+              0.026102993332387574,
+              0.04002943340691685
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.140774553944944,
+            "stone_accuracy": 0.14561319539044953,
+            "target_chain_exact": 0.052734375,
+            "per_class_accuracy": [
+              0.0,
+              0.0,
+              0.5068804085685913,
+              0.056217807211184696
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.21008964787745116,
+            "stone_accuracy": 0.21147969515113582,
+            "target_chain_exact": 0.16796875,
+            "per_class_accuracy": [
+              0.0,
+              0.0,
+              0.13292665626329975,
+              0.7074319352465048
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "2945991c7c55922a945fe83bd558aec7fc46c5c8"
+    },
+    {
+      "run": "20261006T183555928117Z_a0ccc727_s0",
+      "label": "C64, ce late async, gated, EMA + decay, 5\u20139 sizes | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "gated": true,
+        "init_sigma": 0.0,
+        "late_steps": 16,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 64,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "training_steps": 20000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 0
+      },
+      "measurements": {
+        "train": {
+          "64": {
+            "macro_stone_accuracy": 1.0,
+            "stone_accuracy": 1.0,
+            "target_chain_exact": 1.0,
+            "per_class_accuracy": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9989254682061294,
+            "stone_accuracy": 0.9989411586749357,
+            "target_chain_exact": 0.9956461588541666,
+            "per_class_accuracy": [
+              0.9984149802794059,
+              0.9973196482855555,
+              0.9999672442595565,
+              1.0
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9836086141673982,
+            "stone_accuracy": 0.9839269007322252,
+            "target_chain_exact": 0.9569905598958334,
+            "per_class_accuracy": [
+              0.9731038126482116,
+              0.9615489382102659,
+              0.999792546977191,
+              0.9999891588339241
+            ]
+          }
+        },
+        "validation9": {
+          "64": {
+            "macro_stone_accuracy": 1.0,
+            "stone_accuracy": 1.0,
+            "target_chain_exact": 1.0,
+            "per_class_accuracy": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9973184818481848,
+            "stone_accuracy": 0.997145836763818,
+            "target_chain_exact": 0.9915364583333334,
+            "per_class_accuracy": [
+              1.0,
+              0.9892739273927393,
+              1.0,
+              1.0
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9828877684783883,
+            "stone_accuracy": 0.9818595971238816,
+            "target_chain_exact": 0.958984375,
+            "per_class_accuracy": [
+              0.9990015689630581,
+              0.9325495049504952,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "validation13": {
+          "64": {
+            "macro_stone_accuracy": 0.954844832399628,
+            "stone_accuracy": 0.9539658579090117,
+            "target_chain_exact": 0.900390625,
+            "per_class_accuracy": [
+              1.0,
+              0.9226474127557159,
+              0.948976214120206,
+              0.9477557027225901
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9514940901109835,
+            "stone_accuracy": 0.9505172858142189,
+            "target_chain_exact": 0.9029947916666666,
+            "per_class_accuracy": [
+              0.999947851481018,
+              0.8993020457280386,
+              0.9506312952191799,
+              0.9560951680156978
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9401766350854007,
+            "stone_accuracy": 0.9389565921726004,
+            "target_chain_exact": 0.888671875,
+            "per_class_accuracy": [
+              0.9961931581143095,
+              0.8324909747292418,
+              0.9537050172601315,
+              0.97831739023792
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "edf83cdc415a2cbdb2aca2125a102c42354e89cf"
+    },
+    {
+      "run": "20261006T183725507786Z_b5370a05_s0",
+      "label": "C64, ce late, gated, EMA + decay | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "gated": true,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 2048,
+        "training_steps": 12000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9591681306493334,
+            "stone_accuracy": 0.957407634712164,
+            "target_chain_exact": 0.89013671875,
+            "per_class_accuracy": [
+              0.9878852490792789,
+              0.9696268886833179,
+              0.9023884494278474,
+              0.9767719354068889
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.8610892163989237,
+            "stone_accuracy": 0.8642854220367415,
+            "target_chain_exact": 0.75,
+            "per_class_accuracy": [
+              0.7808683853459973,
+              0.8827474560592045,
+              0.7873435220029184,
+              0.9933975021875746
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.55064306102957,
+            "stone_accuracy": 0.5567693629556892,
+            "target_chain_exact": 0.45703125,
+            "per_class_accuracy": [
+              0.37342508238030625,
+              0.1204131976564909,
+              0.7122340834037324,
+              0.9964998806777504
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9563943886689569,
+            "stone_accuracy": 0.9524697866818072,
+            "target_chain_exact": 0.896484375,
+            "per_class_accuracy": [
+              0.9987593052109182,
+              0.9627444892890407,
+              0.8824730242053077,
+              0.9816007359705612
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.8588190355131389,
+            "stone_accuracy": 0.862438153945981,
+            "target_chain_exact": 0.748046875,
+            "per_class_accuracy": [
+              0.7886683209263854,
+              0.8789195901893821,
+              0.7771945173519976,
+              0.99049371358479
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.4950397796759962,
+            "stone_accuracy": 0.5246978668180712,
+            "target_chain_exact": 0.4296875,
+            "per_class_accuracy": [
+              0.13110008271298593,
+              0.1058677429369761,
+              0.752697579469233,
+              0.99049371358479
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.27328082857140573,
+            "stone_accuracy": 0.2591215345532197,
+            "target_chain_exact": 0.298828125,
+            "per_class_accuracy": [
+              0.9998435544430538,
+              0.03667870036101083,
+              0.03305433394807774,
+              0.0235467255334805
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.2738439487619246,
+            "stone_accuracy": 0.26007878944074225,
+            "target_chain_exact": 0.27734375,
+            "per_class_accuracy": [
+              0.9660513141426783,
+              0.039133574007220215,
+              0.02028656547027947,
+              0.06990434142752024
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.26438508974773145,
+            "stone_accuracy": 0.2530834652626928,
+            "target_chain_exact": 0.216796875,
+            "per_class_accuracy": [
+              0.8174280350438048,
+              0.05097472924187726,
+              0.042559228259327564,
+              0.14657836644591613
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "2945991c7c55922a945fe83bd558aec7fc46c5c8"
+    },
+    {
+      "run": "20261006T184135582937Z_88b2ee3f_s0",
+      "label": "C64, ce late, gated, EMA + decay | whole board | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "gated": true,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "all stones, class-balanced minibatch loss",
+        "target_swap": false,
+        "task": "whole_board_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 30000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0,
+        "whole_board": true
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9995459391810614,
+            "stone_accuracy": 0.9995417505667468,
+            "board_exact": 0.990234375,
+            "per_class_accuracy": [
+              0.9999150725068473,
+              0.999538478321068,
+              0.9990478030470302,
+              0.9996824028493001
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9804017545724545,
+            "stone_accuracy": 0.9847214247783556,
+            "board_exact": 0.7431640625,
+            "per_class_accuracy": [
+              0.9580882821291322,
+              0.9830076109120508,
+              0.9848062486200044,
+              0.9957048766286306
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8795758417952172,
+            "stone_accuracy": 0.9174315388824644,
+            "board_exact": 0.3397216796875,
+            "per_class_accuracy": [
+              0.6538567697827979,
+              0.9268278356311519,
+              0.9558125413998675,
+              0.9818062203670516
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9994466695791199,
+            "stone_accuracy": 0.9994734994734995,
+            "board_exact": 0.986328125,
+            "per_class_accuracy": [
+              1.0,
+              0.9995717344753747,
+              0.9983336804832327,
+              0.9998812633578722
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9804092721574209,
+            "stone_accuracy": 0.9864864864864865,
+            "board_exact": 0.751953125,
+            "per_class_accuracy": [
+              0.9492979719188768,
+              0.987294789436117,
+              0.9897937929598001,
+              0.9952505343148895
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8677248600490017,
+            "stone_accuracy": 0.9176904176904177,
+            "board_exact": 0.34375,
+            "per_class_accuracy": [
+              0.6010140405616224,
+              0.9297644539614561,
+              0.9604249114767757,
+              0.9796960341961529
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.8066778671559871,
+            "stone_accuracy": 0.8042774472906803,
+            "board_exact": 0.654296875,
+            "per_class_accuracy": [
+              0.9992934526613283,
+              0.6961462810519414,
+              0.6754124656278644,
+              0.8558592692828146
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.7894784516522014,
+            "stone_accuracy": 0.7874428392213993,
+            "board_exact": 0.48828125,
+            "per_class_accuracy": [
+              0.974917569477155,
+              0.6464631747650615,
+              0.6795371219065078,
+              0.8569959404600812
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.7452655384466096,
+            "stone_accuracy": 0.7566873052486747,
+            "board_exact": 0.216796875,
+            "per_class_accuracy": [
+              0.8128827131417805,
+              0.6428935674218693,
+              0.6679651695692026,
+              0.8573207036535859
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "b3bdfe586ca54dd5151475af637cf350b88f7070"
+    },
+    {
+      "run": "20261006T185058827417Z_70be4434_s0",
+      "label": "C64, ce late async, normalized, replay, curriculum | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "cosine_decay": false,
+        "curriculum": true,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.0,
+        "gated": false,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 4,
+        "profile": "diagnostic",
+        "replay": true,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final update; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 1024,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 6000,
+        "validation_count": 256,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 3000,
+        "whole_board": false
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.6642845004908416,
+            "stone_accuracy": 0.6546624565330349,
+            "target_chain_exact": 0.5247395833333334,
+            "per_class_accuracy": [
+              0.9804165187551769,
+              0.9375159789333742,
+              0.540813668802417,
+              0.19839183547239833
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.6383612830134783,
+            "stone_accuracy": 0.6279361018958924,
+            "target_chain_exact": 0.5550130208333334,
+            "per_class_accuracy": [
+              0.9782865933025677,
+              0.9193127780334408,
+              0.5248215867062562,
+              0.1310241740116489
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.6401913170739841,
+            "stone_accuracy": 0.6296148260655235,
+            "target_chain_exact": 0.5478515625,
+            "per_class_accuracy": [
+              0.9804756833510827,
+              0.8954338599989774,
+              0.558264312132104,
+              0.12659141281377248
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.6384223861803228,
+            "stone_accuracy": 0.614516217853406,
+            "target_chain_exact": 0.51171875,
+            "per_class_accuracy": [
+              0.983779399837794,
+              0.9153813196229649,
+              0.5415415415415415,
+              0.11298728371899103
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.6162960347418059,
+            "stone_accuracy": 0.5920480202654331,
+            "target_chain_exact": 0.5325520833333334,
+            "per_class_accuracy": [
+              0.9667477696674777,
+              0.9083119108826051,
+              0.5261261261261261,
+              0.06399833229101522
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.6245416672509784,
+            "stone_accuracy": 0.6014097692604218,
+            "target_chain_exact": 0.53125,
+            "per_class_accuracy": [
+              0.9648553663152203,
+              0.8954584404455869,
+              0.5667667667667667,
+              0.07108609547633939
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.3453973358011422,
+            "stone_accuracy": 0.31457946240554935,
+            "target_chain_exact": 0.2747395833333333,
+            "per_class_accuracy": [
+              0.9996568291008923,
+              0.3485642219635235,
+              0.0330781848004374,
+              0.0002901073397156948
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.33082551351167494,
+            "stone_accuracy": 0.30016103059581317,
+            "target_chain_exact": 0.2864583333333333,
+            "per_class_accuracy": [
+              0.9958819492107068,
+              0.2732828870779977,
+              0.05239657371970111,
+              0.0017406440382941688
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.3732889966762425,
+            "stone_accuracy": 0.3462901028118419,
+            "target_chain_exact": 0.2890625,
+            "per_class_accuracy": [
+              0.9935941432166553,
+              0.2797826930539387,
+              0.2136868963003463,
+              0.006092254134029591
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "abb92cda2db3d89cf0f868fe2e3d71c8a126d350"
+    },
+    {
+      "run": "20261006T185959689439Z_3c9250e5_s0",
+      "label": "C64, ce late, gated, EMA + decay, algorithm hints | whole board | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.5,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "all stones, class-balanced minibatch loss",
+        "target_swap": false,
+        "task": "whole_board_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 30000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0,
+        "whole_board": true
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9984353156921354,
+            "stone_accuracy": 0.9985012547947717,
+            "board_exact": 0.987060546875,
+            "per_class_accuracy": [
+              0.999872608760271,
+              0.9994210000755217,
+              0.9957634135570766,
+              0.998684240375672
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.993545263191391,
+            "stone_accuracy": 0.994177536612782,
+            "board_exact": 0.9398193359375,
+            "per_class_accuracy": [
+              0.9913586275717107,
+              0.990744392511601,
+              0.9933484212850519,
+              0.9987296113972006
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9805031765683097,
+            "stone_accuracy": 0.9829881636866976,
+            "board_exact": 0.805419921875,
+            "per_class_accuracy": [
+              0.966071466485488,
+              0.9710500037760864,
+              0.9877042393464341,
+              0.9971869966652299
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9978303072426379,
+            "stone_accuracy": 0.9978062478062478,
+            "board_exact": 0.9765625,
+            "per_class_accuracy": [
+              0.999219968798752,
+              0.9975731620271234,
+              0.9958342012080816,
+              0.9986938969365946
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9921732166871695,
+            "stone_accuracy": 0.9924096174096174,
+            "board_exact": 0.943359375,
+            "per_class_accuracy": [
+              0.9937597503900156,
+              0.9862955032119914,
+              0.9904186627785878,
+              0.9982189503680836
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9765268329559573,
+            "stone_accuracy": 0.9805194805194806,
+            "board_exact": 0.80859375,
+            "per_class_accuracy": [
+              0.9582683307332294,
+              0.9655960028551035,
+              0.9852114142886899,
+              0.997031583946806
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.927378592685394,
+            "stone_accuracy": 0.9310226215045931,
+            "board_exact": 0.740234375,
+            "per_class_accuracy": [
+              0.9857512953367875,
+              0.8848255263349603,
+              0.8698441796516957,
+              0.9690933694181326
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9181070346874898,
+            "stone_accuracy": 0.9231313989721177,
+            "board_exact": 0.736328125,
+            "per_class_accuracy": [
+              0.9871643900141309,
+              0.8373278939316675,
+              0.8612511457378552,
+              0.9866847090663058
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8966505229737672,
+            "stone_accuracy": 0.9024928169641051,
+            "board_exact": 0.5625,
+            "per_class_accuracy": [
+              0.9756241168158266,
+              0.7838566329132367,
+              0.8410861594867094,
+              0.9860351826792964
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "fab3ea17d8e2d9af37ff775317c380cb12241e5a"
+    },
+    {
+      "run": "20261006T190330055601Z_f081ef8d_s0",
+      "label": "C64, ce late, gated, varied horizon, EMA + decay | target chain | seed 0",
+      "status": "interrupted",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "min_depth": 16,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 64,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 2048,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 12000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0,
+        "whole_board": false
+      },
+      "measurements": {},
+      "error": null,
+      "source_commit": "fab3ea17d8e2d9af37ff775317c380cb12241e5a"
+    },
+    {
+      "run": "20261006T191455174599Z_f081ef8d_s0",
+      "label": "C64, ce late, gated, varied horizon, EMA + decay | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "min_depth": 16,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 64,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 2048,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 12000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0,
+        "whole_board": false
+      },
+      "measurements": {
+        "train": {
+          "64": {
+            "macro_stone_accuracy": 0.8887564859602072,
+            "stone_accuracy": 0.8864817315167137,
+            "target_chain_exact": 0.8681640625,
+            "per_class_accuracy": [
+              0.925470052335724,
+              0.8636293555349984,
+              0.8478611473773136,
+              0.918065388592793
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8844568886492588,
+            "stone_accuracy": 0.8818788101959821,
+            "target_chain_exact": 0.85302734375,
+            "per_class_accuracy": [
+              0.9258577243651871,
+              0.8529139685476411,
+              0.8397972505951924,
+              0.9192586110890144
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.8760843260678286,
+            "stone_accuracy": 0.8729798289759011,
+            "target_chain_exact": 0.8369140625,
+            "per_class_accuracy": [
+              0.9258577243651871,
+              0.8309435707678076,
+              0.828277398049305,
+              0.9192586110890144
+            ]
+          }
+        },
+        "validation9": {
+          "64": {
+            "macro_stone_accuracy": 0.8901961663371141,
+            "stone_accuracy": 0.882958877443426,
+            "target_chain_exact": 0.873046875,
+            "per_class_accuracy": [
+              0.9867659222497932,
+              0.8646383110835144,
+              0.8375619714202391,
+              0.8718184605949095
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8851583835917473,
+            "stone_accuracy": 0.8776056452267013,
+            "target_chain_exact": 0.869140625,
+            "per_class_accuracy": [
+              0.9867659222497932,
+              0.8522198075131947,
+              0.8328958880139983,
+              0.8687519165900031
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.8788046424225346,
+            "stone_accuracy": 0.8707924405872334,
+            "target_chain_exact": 0.857421875,
+            "per_class_accuracy": [
+              0.9859387923904053,
+              0.8413536168891649,
+              0.8194808982210557,
+              0.8684452621895125
+            ]
+          }
+        },
+        "validation13": {
+          "64": {
+            "macro_stone_accuracy": 0.25336246458719547,
+            "stone_accuracy": 0.23986598431574685,
+            "target_chain_exact": 0.26171875,
+            "per_class_accuracy": [
+              0.938360450563204,
+              0.019350180505415163,
+              0.01673996311533551,
+              0.03899926416482708
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.2555665977171155,
+            "stone_accuracy": 0.2420750340561835,
+            "target_chain_exact": 0.2578125,
+            "per_class_accuracy": [
+              0.9392991239048811,
+              0.01963898916967509,
+              0.018442332245708612,
+              0.044885945548197206
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.25482336290269075,
+            "stone_accuracy": 0.24130186664703068,
+            "target_chain_exact": 0.251953125,
+            "per_class_accuracy": [
+              0.9388297872340425,
+              0.01675090252707581,
+              0.016030642644346716,
+              0.04768211920529802
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "9086f33d5bb25698291bb080050a5aba35646936"
+    },
+    {
+      "run": "20261006T191455368483Z_7460d58e_s0",
+      "label": "C64, ce late async, gated, varied horizon, EMA + decay | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "min_depth": 16,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 64,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 2048,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 12000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 0,
+        "whole_board": false
+      },
+      "measurements": {
+        "train": {
+          "64": {
+            "macro_stone_accuracy": 0.9697247711782865,
+            "stone_accuracy": 0.9683728161695512,
+            "target_chain_exact": 0.95361328125,
+            "per_class_accuracy": [
+              0.9946695095948828,
+              0.9816527906259637,
+              0.9371272047717789,
+              0.9654495797205208
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.963283857249399,
+            "stone_accuracy": 0.9614241097609209,
+            "target_chain_exact": 0.9404296875,
+            "per_class_accuracy": [
+              0.9957033016734509,
+              0.9725562750539624,
+              0.9153162839515655,
+              0.9695595683186169
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9486129344700686,
+            "stone_accuracy": 0.9457878155558284,
+            "target_chain_exact": 0.91650390625,
+            "per_class_accuracy": [
+              0.9953479356464432,
+              0.9499948607256655,
+              0.8744848065944756,
+              0.9746241349136903
+            ]
+          }
+        },
+        "validation9": {
+          "64": {
+            "macro_stone_accuracy": 0.9522707840708374,
+            "stone_accuracy": 0.9490902208884203,
+            "target_chain_exact": 0.9375,
+            "per_class_accuracy": [
+              0.9917287014061208,
+              0.9605712511642347,
+              0.9188295907456011,
+              0.9379535929673924
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9450427270349729,
+            "stone_accuracy": 0.941060372563333,
+            "target_chain_exact": 0.9270833333333334,
+            "per_class_accuracy": [
+              0.9933829611248965,
+              0.9517748111352583,
+              0.896957324778847,
+              0.9380558111008893
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9320080165342945,
+            "stone_accuracy": 0.9268661962311082,
+            "target_chain_exact": 0.90625,
+            "per_class_accuracy": [
+              0.992831541218638,
+              0.9326296181310152,
+              0.8600174978127734,
+              0.942553408974752
+            ]
+          }
+        },
+        "validation13": {
+          "64": {
+            "macro_stone_accuracy": 0.2701102576911729,
+            "stone_accuracy": 0.2558815949339126,
+            "target_chain_exact": 0.3059895833333333,
+            "per_class_accuracy": [
+              1.0,
+              0.016943441636582433,
+              0.03622263205182768,
+              0.02727495707628158
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.26950074965130694,
+            "stone_accuracy": 0.2552188800117816,
+            "target_chain_exact": 0.30078125,
+            "per_class_accuracy": [
+              0.999895702962036,
+              0.0103971119133574,
+              0.033763654419066536,
+              0.03394652931076772
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.2670987294323816,
+            "stone_accuracy": 0.2526784728102794,
+            "target_chain_exact": 0.294921875,
+            "per_class_accuracy": [
+              0.9997914059240718,
+              0.00664259927797834,
+              0.02090130987846976,
+              0.04105960264900663
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "9086f33d5bb25698291bb080050a5aba35646936"
+    },
+    {
+      "run": "20261006T193128492894Z_650809f5_s0",
+      "label": "C64, ce late async, gated, replay, EMA + decay, 5\u20139 sizes | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 16,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": true,
+        "rollout_steps": 64,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "training_steps": 20000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 10000,
+        "whole_board": false
+      },
+      "measurements": {
+        "train": {
+          "64": {
+            "macro_stone_accuracy": 0.9989590417021179,
+            "stone_accuracy": 0.9989355563398824,
+            "target_chain_exact": 0.9983317057291666,
+            "per_class_accuracy": [
+              0.9997419735338567,
+              0.9990629664738121,
+              0.9987116075425551,
+              0.9983196192582474
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9989578434470476,
+            "stone_accuracy": 0.9989355563398825,
+            "target_chain_exact": 0.99853515625,
+            "per_class_accuracy": [
+              0.9997051126101221,
+              0.9990956536898419,
+              0.9986242589013724,
+              0.9984063485868541
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9990396351675549,
+            "stone_accuracy": 0.9990195913656813,
+            "target_chain_exact": 0.9984944661458334,
+            "per_class_accuracy": [
+              0.9997173995847003,
+              0.9992699855086675,
+              0.9985696660006332,
+              0.9986014895762189
+            ]
+          }
+        },
+        "validation9": {
+          "64": {
+            "macro_stone_accuracy": 0.9971457498805064,
+            "stone_accuracy": 0.9968988418683793,
+            "target_chain_exact": 0.9947916666666666,
+            "per_class_accuracy": [
+              1.0,
+              0.9990717821782179,
+              0.9935535059010215,
+              0.9959577114427861
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9965817310725198,
+            "stone_accuracy": 0.9962950765684176,
+            "target_chain_exact": 0.9954427083333334,
+            "per_class_accuracy": [
+              1.0,
+              0.9969059405940595,
+              0.9932559754041456,
+              0.9961650082918739
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9963585831998628,
+            "stone_accuracy": 0.9960480816729786,
+            "target_chain_exact": 0.9954427083333334,
+            "per_class_accuracy": [
+              1.0,
+              0.9969059405940595,
+              0.9923633839135179,
+              0.9961650082918739
+            ]
+          }
+        },
+        "validation13": {
+          "64": {
+            "macro_stone_accuracy": 0.8543207605967874,
+            "stone_accuracy": 0.8522268448633458,
+            "target_chain_exact": 0.744140625,
+            "per_class_accuracy": [
+              0.9037338339591156,
+              0.8692178098676294,
+              0.7011869295881211,
+              0.9431444689722835
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.853838251883205,
+            "stone_accuracy": 0.8513677699642871,
+            "target_chain_exact": 0.7819010416666666,
+            "per_class_accuracy": [
+              0.9182311222361285,
+              0.8615162454873646,
+              0.6878989927649312,
+              0.9477066470443954
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.8537989473953315,
+            "stone_accuracy": 0.8510977749960116,
+            "target_chain_exact": 0.7858072916666666,
+            "per_class_accuracy": [
+              0.9277221526908637,
+              0.8577135980746089,
+              0.6802383316782522,
+              0.9495217071376011
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "fab3ea17d8e2d9af37ff775317c380cb12241e5a"
+    },
+    {
+      "run": "20261006T193202516456Z_96ea19a0_s0",
+      "label": "C128, ce late, gated, EMA + decay | whole board | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "channels": 128,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "all stones, class-balanced minibatch loss",
+        "target_swap": false,
+        "task": "whole_board_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 30000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0,
+        "whole_board": true
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9999979021741867,
+            "stone_accuracy": 0.9999973044150985,
+            "board_exact": 0.9998779296875,
+            "per_class_accuracy": [
+              1.0,
+              0.9999916086967466,
+              1.0,
+              1.0
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9988506370002694,
+            "stone_accuracy": 0.9990322850203651,
+            "board_exact": 0.970458984375,
+            "per_class_accuracy": [
+              0.9983014501369456,
+              0.9993370870429886,
+              0.9983992051225437,
+              0.9993648056986003
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9903735152906377,
+            "stone_accuracy": 0.9922340198988078,
+            "board_exact": 0.88134765625,
+            "per_class_accuracy": [
+              0.986921166054481,
+              0.9951750006293477,
+              0.9826948553764628,
+              0.9967030391022588
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9999122387213824,
+            "stone_accuracy": 0.9999122499122499,
+            "board_exact": 0.99609375,
+            "per_class_accuracy": [
+              1.0,
+              0.999857244825125,
+              0.9997917100604041,
+              1.0
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9977058159328152,
+            "stone_accuracy": 0.9982011232011232,
+            "board_exact": 0.974609375,
+            "per_class_accuracy": [
+              0.9968798751950078,
+              0.9990007137758744,
+              0.9954176213288898,
+              0.999525053431489
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9874785529165065,
+            "stone_accuracy": 0.9897771147771148,
+            "board_exact": 0.86328125,
+            "per_class_accuracy": [
+              0.984789391575663,
+              0.9924339757316203,
+              0.9754217871276817,
+              0.9972690572310615
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.8423802305883855,
+            "stone_accuracy": 0.8447857229573874,
+            "board_exact": 0.69921875,
+            "per_class_accuracy": [
+              0.966674517192652,
+              0.8366722517665914,
+              0.705659945004583,
+              0.8605142083897158
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.8373376537525807,
+            "stone_accuracy": 0.8400307555339728,
+            "board_exact": 0.6796875,
+            "per_class_accuracy": [
+              0.9667922750824305,
+              0.8283674510089605,
+              0.6954628780934922,
+              0.8587280108254398
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8279164567984203,
+            "stone_accuracy": 0.8320990651936384,
+            "board_exact": 0.62890625,
+            "per_class_accuracy": [
+              0.9563118228921338,
+              0.8131419829533038,
+              0.6824014665444547,
+              0.8598105548037889
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "fab3ea17d8e2d9af37ff775317c380cb12241e5a"
+    },
+    {
+      "run": "20261006T195352867210Z_5452adba_s2",
+      "label": "C64, ce late, gated, EMA + decay | whole board | seed 2",
+      "status": "measured",
+      "seed": 2,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "chain_messages": false,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "diverse_chains": false,
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "replication_of": "20261006T184135582937Z_88b2ee3f_s0",
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "all stones, class-balanced minibatch loss",
+        "target_swap": false,
+        "task": "whole_board_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 30000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0,
+        "whole_board": true
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9997313184073806,
+            "stone_accuracy": 0.9997573973588659,
+            "board_exact": 0.9976806640625,
+            "per_class_accuracy": [
+              0.9999787681267118,
+              0.9998741304512003,
+              0.9991858026054317,
+              0.9998865724461786
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9909306999997101,
+            "stone_accuracy": 0.9899239036382309,
+            "board_exact": 0.8560791015625,
+            "per_class_accuracy": [
+              0.9959871759485339,
+              0.9749435684856215,
+              0.9934726208876131,
+              0.9993194346770717
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.93927646443735,
+            "stone_accuracy": 0.942786210465878,
+            "board_exact": 0.482421875,
+            "per_class_accuracy": [
+              0.9604662519374084,
+              0.9045908820098849,
+              0.8948995363214838,
+              0.9971491874806228
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.999707488299532,
+            "stone_accuracy": 0.9998683748683749,
+            "board_exact": 0.998046875,
+            "per_class_accuracy": [
+              0.998829953198128,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9886194356947062,
+            "stone_accuracy": 0.9876272376272376,
+            "board_exact": 0.841796875,
+            "per_class_accuracy": [
+              0.9953198127925117,
+              0.9680228408279801,
+              0.9920849822953551,
+              0.9990501068629779
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9329902657820816,
+            "stone_accuracy": 0.9376096876096877,
+            "board_exact": 0.478515625,
+            "per_class_accuracy": [
+              0.9465678627145085,
+              0.8889364739471806,
+              0.8991876692355759,
+              0.9972690572310615
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.8382800279440351,
+            "stone_accuracy": 0.8392213993767957,
+            "board_exact": 0.705078125,
+            "per_class_accuracy": [
+              0.9888130004710316,
+              0.8180957237561011,
+              0.6891613198900092,
+              0.8570500676589986
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.8307024329399042,
+            "stone_accuracy": 0.8315325158836145,
+            "board_exact": 0.55078125,
+            "per_class_accuracy": [
+              0.9819830428638718,
+              0.7947840023311722,
+              0.6890467461044913,
+              0.8569959404600812
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8197741907267742,
+            "stone_accuracy": 0.8189672615434422,
+            "board_exact": 0.22265625,
+            "per_class_accuracy": [
+              0.9689119170984456,
+              0.7420412326072704,
+              0.7089825847846013,
+              0.8591610284167794
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "02f7989920911826b2994c3f2b9efcbee3d4f7b6"
+    },
+    {
+      "run": "20261006T195352876783Z_5452adba_s1",
+      "label": "C64, ce late, gated, EMA + decay | whole board | seed 1",
+      "status": "measured",
+      "seed": 1,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "chain_messages": false,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "diverse_chains": false,
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "replication_of": "20261006T184135582937Z_88b2ee3f_s0",
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "all stones, class-balanced minibatch loss",
+        "target_swap": false,
+        "task": "whole_board_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 30000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0,
+        "whole_board": true
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9987724205307801,
+            "stone_accuracy": 0.9987869867943295,
+            "board_exact": 0.9814453125,
+            "per_class_accuracy": [
+              0.9998938406335591,
+              0.9992615653137089,
+              0.996977809671009,
+              0.9989564665048434
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9828900948458996,
+            "stone_accuracy": 0.9848642907781345,
+            "board_exact": 0.7958984375,
+            "per_class_accuracy": [
+              0.9688740737595278,
+              0.9820677849476802,
+              0.9907816294987856,
+              0.9898368911776049
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8301574801935295,
+            "stone_accuracy": 0.8231777172169703,
+            "board_exact": 0.18798828125,
+            "per_class_accuracy": [
+              0.7571286014565065,
+              0.8327277609485529,
+              0.9769264738352837,
+              0.7538470845337749
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9983365914243427,
+            "stone_accuracy": 0.9984643734643734,
+            "board_exact": 0.9765625,
+            "per_class_accuracy": [
+              0.998829953198128,
+              0.9995717344753747,
+              0.9962507810872735,
+              0.9986938969365946
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9849542101871187,
+            "stone_accuracy": 0.9866181116181116,
+            "board_exact": 0.7890625,
+            "per_class_accuracy": [
+              0.9746489859594384,
+              0.9804425410421128,
+              0.9929181420537389,
+              0.9918071716931846
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.83283387178396,
+            "stone_accuracy": 0.8309494559494559,
+            "board_exact": 0.181640625,
+            "per_class_accuracy": [
+              0.75,
+              0.8406852248394004,
+              0.9756300770672777,
+              0.7650201852291617
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.8146180438259887,
+            "stone_accuracy": 0.8159119420500991,
+            "board_exact": 0.654296875,
+            "per_class_accuracy": [
+              0.9778615167216204,
+              0.7615647993006484,
+              0.666704857928506,
+              0.85234100135318
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.7952188332542192,
+            "stone_accuracy": 0.7960017805835458,
+            "board_exact": 0.513671875,
+            "per_class_accuracy": [
+              0.9559585492227979,
+              0.7136300721206381,
+              0.6663611365719523,
+              0.8449255751014885
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.7009189612456157,
+            "stone_accuracy": 0.6846141394520658,
+            "board_exact": 0.099609375,
+            "per_class_accuracy": [
+              0.8749411210551107,
+              0.5803890143512785,
+              0.6640696608615949,
+              0.684276048714479
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "02f7989920911826b2994c3f2b9efcbee3d4f7b6"
+    },
+    {
+      "run": "20261006T195402733085Z_3768a5c8_s0",
+      "label": "C64, ce late, gated, EMA + decay, algorithm hints, same-chain messages, diverse shapes, 5\u20139 sizes | target chain | seed 0",
+      "status": "interrupted",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "chain_messages": true,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "diverse_chains": true,
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.5,
+        "init_sigma": 0.0,
+        "late_steps": 16,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "replication_of": null,
+        "rollout_steps": 64,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "training_steps": 20000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0,
+        "whole_board": false
+      },
+      "measurements": {},
+      "error": null,
+      "source_commit": "02f7989920911826b2994c3f2b9efcbee3d4f7b6"
+    },
+    {
+      "run": "20261006T195937185759Z_d7c2b4b2_s0",
+      "label": "C64, ce late async, gated, EMA + decay | whole board | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "chain_messages": false,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "diverse_chains": false,
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "replication_of": null,
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "all stones, class-balanced minibatch loss",
+        "target_swap": false,
+        "task": "whole_board_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 30000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 0,
+        "whole_board": true
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9992852259452266,
+            "stone_accuracy": 0.9992757861897997,
+            "board_exact": 0.9866536458333334,
+            "per_class_accuracy": [
+              0.9999150725068473,
+              0.9993762464581707,
+              0.9984268050342239,
+              0.9994227797816645
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9945703078534841,
+            "stone_accuracy": 0.9956295583463844,
+            "board_exact": 0.9298909505208334,
+            "per_class_accuracy": [
+              0.9874165764312052,
+              0.9934268124515752,
+              0.998436005004784,
+              0.999001837526372
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9719703178887181,
+            "stone_accuracy": 0.9770875283373363,
+            "board_exact": 0.7095133463541666,
+            "per_class_accuracy": [
+              0.9328223529161978,
+              0.9602643819945009,
+              0.998532604695665,
+              0.996261931948509
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9998155565263733,
+            "stone_accuracy": 0.9998244998244998,
+            "board_exact": 0.9934895833333334,
+            "per_class_accuracy": [
+              1.0,
+              0.999857244825125,
+              0.9994445601610776,
+              0.9999604211192907
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9950037673397386,
+            "stone_accuracy": 0.9965192465192465,
+            "board_exact": 0.935546875,
+            "per_class_accuracy": [
+              0.9866094643785752,
+              0.994337378063288,
+              0.9993057002013469,
+              0.9997625267157444
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9691554436347957,
+            "stone_accuracy": 0.9785304785304786,
+            "board_exact": 0.7337239583333334,
+            "per_class_accuracy": [
+              0.9152366094643786,
+              0.9649298120390197,
+              0.9990279802818858,
+              0.9974273727538985
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.8309344861415529,
+            "stone_accuracy": 0.8308243292460847,
+            "board_exact": 0.6868489583333334,
+            "per_class_accuracy": [
+              0.9936018213220286,
+              0.7860421067968238,
+              0.6867552703941339,
+              0.857338746053225
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.831990323474762,
+            "stone_accuracy": 0.8311345824396693,
+            "board_exact": 0.6614583333333334,
+            "per_class_accuracy": [
+              0.9928560213534307,
+              0.7818411403317063,
+              0.6959975557592423,
+              0.8572665764546684
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8286680731780298,
+            "stone_accuracy": 0.8273913102127258,
+            "board_exact": 0.3912760416666667,
+            "per_class_accuracy": [
+              0.9847307269587061,
+              0.7684611835555232,
+              0.7046287809349221,
+              0.856851601262968
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "02f7989920911826b2994c3f2b9efcbee3d4f7b6"
+    },
+    {
+      "run": "20261006T200156953891Z_3768a5c8_s0",
+      "label": "C64, ce late, gated, EMA + decay, algorithm hints, same-chain messages, diverse shapes, 5\u20139 sizes | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "chain_messages": true,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "diverse_chains": true,
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.5,
+        "init_sigma": 0.0,
+        "late_steps": 16,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "replication_of": null,
+        "rollout_steps": 64,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "training_steps": 20000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late"
+        ],
+        "warmup_steps": 0,
+        "whole_board": false
+      },
+      "measurements": {
+        "train": {
+          "64": {
+            "macro_stone_accuracy": 0.9754901194532642,
+            "stone_accuracy": 0.9752266515565629,
+            "target_chain_exact": 0.97900390625,
+            "per_class_accuracy": [
+              0.9998971052270544,
+              0.9933581296493093,
+              0.939109760929864,
+              0.9695954820068295
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9698504095947297,
+            "stone_accuracy": 0.9695436970868608,
+            "target_chain_exact": 0.9742431640625,
+            "per_class_accuracy": [
+              0.9998285087117574,
+              0.9939226886291179,
+              0.9091269317131159,
+              0.9765235093249278
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9430361488810708,
+            "stone_accuracy": 0.9424871675221652,
+            "target_chain_exact": 0.9454345703125,
+            "per_class_accuracy": [
+              0.9997942104541089,
+              0.9947197130712009,
+              0.7937194558182539,
+              0.9839112161807197
+            ]
+          }
+        },
+        "validation9": {
+          "64": {
+            "macro_stone_accuracy": 0.9545963270933201,
+            "stone_accuracy": 0.95176117229453,
+            "target_chain_exact": 0.953125,
+            "per_class_accuracy": [
+              1.0,
+              0.9788251366120219,
+              0.8851902173913043,
+              0.9543699543699544
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9581915059379644,
+            "stone_accuracy": 0.9554018385364522,
+            "target_chain_exact": 0.953125,
+            "per_class_accuracy": [
+              1.0,
+              0.9894125683060109,
+              0.8661684782608695,
+              0.9771849771849772
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9302108822542158,
+            "stone_accuracy": 0.9253663420405934,
+            "target_chain_exact": 0.92578125,
+            "per_class_accuracy": [
+              1.0,
+              0.9894125683060109,
+              0.7489809782608695,
+              0.9824499824499825
+            ]
+          }
+        },
+        "validation13": {
+          "64": {
+            "macro_stone_accuracy": 0.871210023629743,
+            "stone_accuracy": 0.8666471706389823,
+            "target_chain_exact": 0.84375,
+            "per_class_accuracy": [
+              1.0,
+              0.8983867588518751,
+              0.7318724389809371,
+              0.8545808966861599
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8673042870759812,
+            "stone_accuracy": 0.8602622215723547,
+            "target_chain_exact": 0.880859375,
+            "per_class_accuracy": [
+              1.0,
+              0.9080243033731406,
+              0.633707464813825,
+              0.927485380116959
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.8301796528333172,
+            "stone_accuracy": 0.8195155237120437,
+            "target_chain_exact": 0.853515625,
+            "per_class_accuracy": [
+              1.0,
+              0.9011104127383197,
+              0.4749688223766257,
+              0.9446393762183236
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "9361e58da2240be88cada4020f69ec558c2c86cb"
+    },
+    {
+      "run": "20261006T201026705778Z_5c97d885_s0",
+      "label": "C64, ce late async, gated, EMA + decay, algorithm hints, same-chain messages, diverse shapes, 5\u20139 sizes | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "chain_messages": true,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "diverse_chains": true,
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.5,
+        "init_sigma": 0.0,
+        "late_steps": 16,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "replication_of": null,
+        "rollout_steps": 64,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "training_steps": 20000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 0,
+        "whole_board": false
+      },
+      "measurements": {
+        "train": {
+          "64": {
+            "macro_stone_accuracy": 0.8861391312999558,
+            "stone_accuracy": 0.8852076528231452,
+            "target_chain_exact": 0.8760579427083334,
+            "per_class_accuracy": [
+              0.9650386427036173,
+              0.9566396563939072,
+              0.7987165940210451,
+              0.8241616320812538
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.881184198962694,
+            "stone_accuracy": 0.8802968690976157,
+            "target_chain_exact": 0.8609619140625,
+            "per_class_accuracy": [
+              0.9650386427036173,
+              0.9261534714842367,
+              0.7765706863910536,
+              0.8569739952718676
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.8654659554804233,
+            "stone_accuracy": 0.8644951447681265,
+            "target_chain_exact": 0.8051350911458334,
+            "per_class_accuracy": [
+              0.9650386427036173,
+              0.9168659227771873,
+              0.6874367102540395,
+              0.8925225461868488
+            ]
+          }
+        },
+        "validation9": {
+          "64": {
+            "macro_stone_accuracy": 0.8526846999459026,
+            "stone_accuracy": 0.8461515123934347,
+            "target_chain_exact": 0.798828125,
+            "per_class_accuracy": [
+              0.9658723153868785,
+              0.9253187613843351,
+              0.7313179347826088,
+              0.7882297882297883
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8549785153174421,
+            "stone_accuracy": 0.84824489548254,
+            "target_chain_exact": 0.7955729166666666,
+            "per_class_accuracy": [
+              0.9658723153868785,
+              0.8933287795992714,
+              0.7248641304347826,
+              0.8358488358488358
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.835014527685121,
+            "stone_accuracy": 0.8265222535724037,
+            "target_chain_exact": 0.75390625,
+            "per_class_accuracy": [
+              0.9658723153868785,
+              0.8761384335154827,
+              0.6217164855072465,
+              0.8763308763308763
+            ]
+          }
+        },
+        "validation13": {
+          "64": {
+            "macro_stone_accuracy": 0.6958654045293741,
+            "stone_accuracy": 0.68855095774236,
+            "target_chain_exact": 0.6510416666666666,
+            "per_class_accuracy": [
+              0.8482303539292141,
+              0.8677281933095887,
+              0.5528831878377576,
+              0.5146198830409356
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.7222783812857448,
+            "stone_accuracy": 0.7172101184383681,
+            "target_chain_exact": 0.6770833333333334,
+            "per_class_accuracy": [
+              0.8420982470172632,
+              0.8310636217612962,
+              0.6193954510362848,
+              0.5965562053281351
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.7182869372825187,
+            "stone_accuracy": 0.7111825965459538,
+            "target_chain_exact": 0.6360677083333334,
+            "per_class_accuracy": [
+              0.8400986469372792,
+              0.8209372162860534,
+              0.5249124057248055,
+              0.6871994801819362
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "9361e58da2240be88cada4020f69ec558c2c86cb"
+    },
+    {
+      "run": "20261006T203332070557Z_4c39f1bb_s1",
+      "label": "C64, ce late async, gated, EMA + decay | whole board | seed 1",
+      "status": "measured",
+      "seed": 1,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "chain_messages": false,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "diverse_chains": false,
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "replication_of": "20261006T195937185759Z_d7c2b4b2_s0",
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "all stones, class-balanced minibatch loss",
+        "target_swap": false,
+        "task": "whole_board_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 30000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 0,
+        "whole_board": true
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9992125562735906,
+            "stone_accuracy": 0.9992236715483709,
+            "board_exact": 0.9910888671875,
+            "per_class_accuracy": [
+              0.9998442995958867,
+              0.9996587536676987,
+              0.998146205932141,
+              0.9992009658986362
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9761523264164326,
+            "stone_accuracy": 0.9826017965174839,
+            "board_exact": 0.7569580078125,
+            "per_class_accuracy": [
+              0.9408763101835141,
+              0.9864480452459071,
+              0.9841208508132774,
+              0.9931640994230317
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8833459332373202,
+            "stone_accuracy": 0.9036211589038313,
+            "board_exact": 0.21341959635416666,
+            "per_class_accuracy": [
+              0.7712690290664345,
+              0.8978191002844652,
+              0.9139894752336793,
+              0.9503061283647024
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9986511036351061,
+            "stone_accuracy": 0.9987129987129988,
+            "board_exact": 0.9889322916666666,
+            "per_class_accuracy": [
+              1.0,
+              0.9998096597668332,
+              0.9956259112684857,
+              0.9991688435051057
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9820362468358607,
+            "stone_accuracy": 0.9868813618813618,
+            "board_exact": 0.7858072916666666,
+            "per_class_accuracy": [
+              0.9582683307332293,
+              0.9871520342612419,
+              0.987988613483302,
+              0.9947360088656693
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8965800968945999,
+            "stone_accuracy": 0.9124839124839125,
+            "board_exact": 0.208984375,
+            "per_class_accuracy": [
+              0.8252730109204368,
+              0.892172257911016,
+              0.9135596750676941,
+              0.9553154436792527
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.8155139974831664,
+            "stone_accuracy": 0.814232528023957,
+            "board_exact": 0.6744791666666666,
+            "per_class_accuracy": [
+              0.9972915685350917,
+              0.7357519244311698,
+              0.6746868316529179,
+              0.8543256653134867
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.7835879875088277,
+            "stone_accuracy": 0.7887917661500277,
+            "board_exact": 0.46484375,
+            "per_class_accuracy": [
+              0.9039880672005024,
+              0.7081421043685195,
+              0.670638557897953,
+              0.8515832205683357
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.6989928099192961,
+            "stone_accuracy": 0.7191938812674517,
+            "board_exact": 0.08203125,
+            "per_class_accuracy": [
+              0.7028183388287016,
+              0.6582890167795828,
+              0.6124732661167126,
+              0.8223906179521876
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "0ac3aec5314a261aee20b6f241b1286009c375fc"
+    },
+    {
+      "run": "20261006T203332077038Z_4c39f1bb_s2",
+      "label": "C64, ce late async, gated, EMA + decay | whole board | seed 2",
+      "status": "measured",
+      "seed": 2,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "chain_messages": false,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "diverse_chains": false,
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "replication_of": "20261006T195937185759Z_d7c2b4b2_s0",
+        "rollout_steps": 32,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "all stones, class-balanced minibatch loss",
+        "target_swap": false,
+        "task": "whole_board_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 30000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 0,
+        "whole_board": true
+      },
+      "measurements": {
+        "train": {
+          "32": {
+            "macro_stone_accuracy": 0.9997303744089606,
+            "stone_accuracy": 0.999712470943841,
+            "board_exact": 0.9970703125,
+            "per_class_accuracy": [
+              0.9999575362534237,
+              0.9996084058481789,
+              0.9995446014572753,
+              0.9998109540769645
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9871794166037701,
+            "stone_accuracy": 0.9861887214930665,
+            "board_exact": 0.7659505208333334,
+            "per_class_accuracy": [
+              0.9930076363970927,
+              0.9686221200347959,
+              0.9890842349304482,
+              0.9980036750527438
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9019824907085464,
+            "stone_accuracy": 0.8972667667627193,
+            "board_exact": 0.2820231119791667,
+            "per_class_accuracy": [
+              0.9499069336220868,
+              0.7806401445541841,
+              0.8895221535291086,
+              0.9878607311288058
+            ]
+          }
+        },
+        "validation9": {
+          "32": {
+            "macro_stone_accuracy": 0.9997649586611329,
+            "stone_accuracy": 0.9996636246636247,
+            "board_exact": 0.998046875,
+            "per_class_accuracy": [
+              1.0,
+              1.0,
+              0.9999305700201347,
+              0.9991292646243964
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.9867570348138041,
+            "stone_accuracy": 0.9870861120861121,
+            "board_exact": 0.76953125,
+            "per_class_accuracy": [
+              0.984659386375455,
+              0.9710206995003569,
+              0.9942373116711796,
+              0.9971107417082244
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.90524217855373,
+            "stone_accuracy": 0.9034895284895285,
+            "board_exact": 0.283203125,
+            "per_class_accuracy": [
+              0.9416276651066043,
+              0.7913871044492029,
+              0.9019648684301882,
+              0.9859890762289242
+            ]
+          }
+        },
+        "validation13": {
+          "32": {
+            "macro_stone_accuracy": 0.8410536707866747,
+            "stone_accuracy": 0.8428162896415902,
+            "board_exact": 0.7174479166666666,
+            "per_class_accuracy": [
+              0.997880357983985,
+              0.7945897379859644,
+              0.6941261839291171,
+              0.8776184032476321
+            ]
+          },
+          "64": {
+            "macro_stone_accuracy": 0.8352508764172829,
+            "stone_accuracy": 0.8326251466958036,
+            "board_exact": 0.5006510416666666,
+            "per_class_accuracy": [
+              0.99462238970011,
+              0.7252373667468007,
+              0.7389245340666055,
+              0.8822192151556157
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.785098721772597,
+            "stone_accuracy": 0.7815008161007918,
+            "board_exact": 0.11197916666666667,
+            "per_class_accuracy": [
+              0.9666352645627256,
+              0.5739054418299702,
+              0.7202871982890314,
+              0.8795669824086604
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "0ac3aec5314a261aee20b6f241b1286009c375fc"
+    },
+    {
+      "run": "20261006T203954573173Z_e14d292b_s0",
+      "label": "C64, ce late async, gated, EMA + decay, same-chain messages, diverse shapes, 5\u20139 sizes | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 64,
+        "chain_messages": true,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "diverse_chains": true,
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 16,
+        "learning_rate": 0.0005,
+        "log_every": 1000,
+        "min_depth": 0,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": false,
+        "replication_of": null,
+        "rollout_steps": 64,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 8192,
+        "train_sizes": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "training_steps": 20000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 0,
+        "whole_board": false
+      },
+      "measurements": {
+        "train": {
+          "64": {
+            "macro_stone_accuracy": 0.9528116146320746,
+            "stone_accuracy": 0.9523226229362486,
+            "target_chain_exact": 0.9424641927083334,
+            "per_class_accuracy": [
+              0.9989367540128962,
+              0.9695138150903294,
+              0.911966715097081,
+              0.9308291743279923
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9010316412248555,
+            "stone_accuracy": 0.9002399840010668,
+            "target_chain_exact": 0.8688557942708334,
+            "per_class_accuracy": [
+              0.9973018703983172,
+              0.8906305348919589,
+              0.7465658433496235,
+              0.9696283162595218
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.7521159095931026,
+            "stone_accuracy": 0.7502277625936049,
+            "target_chain_exact": 0.7223307291666666,
+            "per_class_accuracy": [
+              0.9916312251337632,
+              0.7234657279489904,
+              0.31652577818870253,
+              0.9768409071009544
+            ]
+          }
+        },
+        "validation9": {
+          "64": {
+            "macro_stone_accuracy": 0.9086755526971971,
+            "stone_accuracy": 0.9031279390795183,
+            "target_chain_exact": 0.8717447916666666,
+            "per_class_accuracy": [
+              0.9985289791115034,
+              0.8866120218579234,
+              0.8368432971014492,
+              0.9127179127179127
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.8468727776947497,
+            "stone_accuracy": 0.8365947635083887,
+            "target_chain_exact": 0.783203125,
+            "per_class_accuracy": [
+              0.9985289791115034,
+              0.7704918032786884,
+              0.6524003623188407,
+              0.966069966069966
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.6958325482421381,
+            "stone_accuracy": 0.6757076545007736,
+            "target_chain_exact": 0.6393229166666666,
+            "per_class_accuracy": [
+              0.9869079140923801,
+              0.5091074681238615,
+              0.3098958333333333,
+              0.9774189774189774
+            ]
+          }
+        },
+        "validation13": {
+          "64": {
+            "macro_stone_accuracy": 0.7928810949211469,
+            "stone_accuracy": 0.7892479407320758,
+            "target_chain_exact": 0.6959635416666666,
+            "per_class_accuracy": [
+              0.9728054389122175,
+              0.8006145680564286,
+              0.6923213967575271,
+              0.7057829759584145
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.7301153587611745,
+            "stone_accuracy": 0.7285828012542445,
+            "target_chain_exact": 0.6770833333333334,
+            "per_class_accuracy": [
+              0.920482570152636,
+              0.5281793421328305,
+              0.5666013421224538,
+              0.9051981806367771
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.5988026178898432,
+            "stone_accuracy": 0.5931179022274211,
+            "target_chain_exact": 0.578125,
+            "per_class_accuracy": [
+              0.8812237552489502,
+              0.34778965011523155,
+              0.24722370687095432,
+              0.9189733593242365
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "9361e58da2240be88cada4020f69ec558c2c86cb"
+    },
+    {
+      "run": "20261006T204331490660Z_975816bf_s0",
+      "label": "C64, ce late async, gated, varied horizon, replay, EMA + decay | target chain | seed 0",
+      "status": "measured",
+      "seed": 0,
+      "config": {
+        "augmentation": true,
+        "batch_size": 32,
+        "channels": 64,
+        "cosine_decay": true,
+        "curriculum": false,
+        "damage": false,
+        "data_seeds": {
+          "train": 73001,
+          "validation13": 73003,
+          "validation9": 73002
+        },
+        "ema_decay": 0.99,
+        "evaluation_batch_size": 128,
+        "gated": true,
+        "hint_weight": 0.0,
+        "init_sigma": 0.0,
+        "late_steps": 8,
+        "learning_rate": 0.0005,
+        "log_every": 200,
+        "min_depth": 16,
+        "noise": false,
+        "normalization_groups": 0,
+        "profile": "diagnostic",
+        "replay": true,
+        "rollout_steps": 64,
+        "seed_fraction": 0.25,
+        "selection": "final EMA; no checkpoint selection",
+        "supervision": "one constructed chain per board, balanced by chain",
+        "target_swap": false,
+        "task": "target_chain_liberties",
+        "test_sizes": [],
+        "train_count": 2048,
+        "train_sizes": [
+          9
+        ],
+        "training_steps": 12000,
+        "validation_count": 512,
+        "variants": [
+          "ce_late_async"
+        ],
+        "warmup_steps": 6000,
+        "whole_board": false
+      },
+      "measurements": {
+        "train": {
+          "64": {
+            "macro_stone_accuracy": 0.915719930549408,
+            "stone_accuracy": 0.9121353463442575,
+            "target_chain_exact": 0.82861328125,
+            "per_class_accuracy": [
+              0.9809717645538542,
+              0.9159214718881694,
+              0.8528530834805315,
+              0.9131334022750774
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9150131974131653,
+            "stone_accuracy": 0.9113988789329405,
+            "target_chain_exact": 0.8370768229166666,
+            "per_class_accuracy": [
+              0.9805517865219358,
+              0.91404563675609,
+              0.8513939021580524,
+              0.9140614642165832
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9124482911356107,
+            "stone_accuracy": 0.9087121367101728,
+            "target_chain_exact": 0.8347981770833334,
+            "per_class_accuracy": [
+              0.9799379724752858,
+              0.9120670161373216,
+              0.8448403860430586,
+              0.9129477898867764
+            ]
+          }
+        },
+        "validation9": {
+          "64": {
+            "macro_stone_accuracy": 0.9089500784194561,
+            "stone_accuracy": 0.9018303728336982,
+            "target_chain_exact": 0.8294270833333334,
+            "per_class_accuracy": [
+              0.9958643507030605,
+              0.9212459898582223,
+              0.8255079226207837,
+              0.893182050495758
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.9083432790817093,
+            "stone_accuracy": 0.9011814962013681,
+            "target_chain_exact": 0.8391927083333334,
+            "per_class_accuracy": [
+              0.996002205679625,
+              0.9237296905722862,
+              0.8262856031884903,
+              0.8873556168864356
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.9095187447206589,
+            "stone_accuracy": 0.9025333225187229,
+            "target_chain_exact": 0.845703125,
+            "per_class_accuracy": [
+              0.996002205679625,
+              0.925902928697092,
+              0.834742879362302,
+              0.8814269651436164
+            ]
+          }
+        },
+        "validation13": {
+          "64": {
+            "macro_stone_accuracy": 0.26396471280085604,
+            "stone_accuracy": 0.2496103481707841,
+            "target_chain_exact": 0.267578125,
+            "per_class_accuracy": [
+              0.9994263662911974,
+              0.022045728038507822,
+              0.01971910909348844,
+              0.014667647780230561
+            ]
+          },
+          "128": {
+            "macro_stone_accuracy": 0.26456290830069623,
+            "stone_accuracy": 0.2502239730986832,
+            "target_chain_exact": 0.26953125,
+            "per_class_accuracy": [
+              0.9995306633291614,
+              0.02421179302045728,
+              0.020381141533077976,
+              0.0141280353200883
+            ]
+          },
+          "256": {
+            "macro_stone_accuracy": 0.2652073796306708,
+            "stone_accuracy": 0.2508744155222562,
+            "target_chain_exact": 0.2688802083333333,
+            "per_class_accuracy": [
+              0.9996349603671256,
+              0.02531889290012034,
+              0.02057029365867499,
+              0.015305371596762327
+            ]
+          }
+        }
+      },
+      "error": null,
+      "source_commit": "9086f33d5bb25698291bb080050a5aba35646936"
+    }
+  ]
+}

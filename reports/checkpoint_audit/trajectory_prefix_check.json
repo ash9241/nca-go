@@ -1,0 +1,27 @@
+{
+  "original_run": "20261006T235823541171Z_a6a1d767_s0",
+  "trajectory_run": "20261007T010251478968Z_6e3be4be_s0",
+  "checked_updates": [
+    1,
+    1000,
+    2000,
+    3000,
+    4000,
+    5000
+  ],
+  "matched_fields": [
+    "loss",
+    "horizon",
+    "D32 accuracy",
+    "D128 accuracy",
+    "D512 accuracy",
+    "D1024 accuracy"
+  ],
+  "all_logged_fields_exactly_equal": true,
+  "scope": "six observed milestones;fresh-only prefix,not an all-state equality measurement",
+  "source_revisions": [
+    "397de4e",
+    "13494d2"
+  ],
+  "interpretation": "Differences after update5000 can test the replay-ID policy for this one matched training seed."
+}

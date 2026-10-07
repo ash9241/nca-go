@@ -1,0 +1,144 @@
+{
+  "source_run": "20261007T025651586214Z_b21f95e9_s2",
+  "checkpoint_sha256": "d758bd66bda113c1c67f0e62c3f3e266584075a56c8363fc5398c0c0998bd54f",
+  "final_namespace": "sealed_main_cap4_20261007",
+  "examples": [
+    {
+      "name": "first_final_9",
+      "selection": "First final board; ID draw0; selected before predictions",
+      "steps": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        16,
+        26,
+        32,
+        52,
+        64,
+        104,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "query_predictions": [],
+      "evaluator_files": [
+        "size9_ratio0.5_draw0.npz",
+        "size9_ratio1.0_draw0.npz",
+        "size9_ratio2.0_draw0.npz",
+        "size9_ratio4.0_draw0.npz"
+      ],
+      "evaluator_board_indices": [
+        0
+      ]
+    },
+    {
+      "name": "first_snake_37",
+      "selection": "First prespecified witness family pair; coupled fixed-depth evaluator keys; ID draw0",
+      "steps": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        16,
+        26,
+        32,
+        52,
+        64,
+        104,
+        128,
+        256,
+        512,
+        646,
+        1024,
+        1292,
+        2584
+      ],
+      "query_predictions": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "evaluator_files": [
+        "witness_37_draw0.npz"
+      ],
+      "evaluator_board_indices": [
+        32,
+        33
+      ]
+    }
+  ],
+  "scope": "Learned-model illustrations; no outcome-based example selection"
+}

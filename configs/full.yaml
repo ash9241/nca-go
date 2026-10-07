@@ -1,0 +1,50 @@
+profile: full
+seeds: [0, 1, 2]
+tasks: [liberties, benson, ladders]
+train_size: 9
+validation_size: 13
+test_sizes: [9, 13, 19, 25, 37]
+train_count: 10000
+validation_count: 1000
+test_count: 1000
+crosscheck_games: 10000
+training_steps: 10000
+batch_size: 64
+evaluation_batch_size: 4
+channels: 32
+input_channels: 8
+heads: 4
+expansion: 2
+channel_sweep: [16, 32, 64]
+expansion_sweep: [2, 4]
+rollout_steps: 128
+chunk_steps: 128
+learning_rate: 0.0004
+ema: 0.999
+fire_rate: 0.8
+init_sigma: 0.15
+readout: mse
+normalization_groups: 0
+seed_fraction: 0.25
+noise: true
+damage: true
+target_swap: true
+replay: true
+neighborhood: moore
+evaluation_steps: [32, 64, 128, 256, 512, 1024, 2048, 4096, 8192]
+auto_steps_cap: null
+trials: [1, 2, 4, 8]
+noise_sigmas: [0, 0.1, 0.3, 1.0]
+baseline_blocks: [4, 8, 16]
+baseline_ratios: [1, 10]
+ablations: [async, replay, noise, damage, target_swap, neighborhood]
+ring_pairs: 100
+bootstrap_samples: 10000
+ladder_node_budget: 100000
+commit_phases: true
+player_positions: 500000
+player_evaluation_counts: {9: 1000, 13: 20000, 19: 20000}
+warm_positions: 200
+player_loss_weights: {policy: 1.0, ownership: 1.0, score: 0.001, winrate: 1.0}
+player_games: 200
+player_visits: [1, 16, 128]

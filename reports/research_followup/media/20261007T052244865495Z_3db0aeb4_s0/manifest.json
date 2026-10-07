@@ -1,0 +1,93 @@
+{
+  "source_run": "20261007T052244865495Z_3db0aeb4_s0",
+  "checkpoint_sha256": "0559aa1d4705edb5b7f8fec6cf1e791e91dac886f50c59697cee06265a8295cd",
+  "final_namespace": "sealed_eyes_20261007",
+  "examples": [
+    {
+      "name": "first_eye_witness_37",
+      "selection": "First prespecified witness family pair; coupled fixed-depth evaluator keys; ID draw0",
+      "steps": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        550,
+        1024,
+        1100,
+        2200
+      ],
+      "query_predictions": [
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "evaluator_files": [
+        "eye_witness_37_draw0.npz"
+      ],
+      "evaluator_board_indices": [
+        32,
+        33
+      ]
+    }
+  ],
+  "scope": "Learned-model illustrations; no outcome-based example selection"
+}

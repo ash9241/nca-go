@@ -1,0 +1,54 @@
+[
+  {
+    "size": 13,
+    "depth": 32,
+    "model": "Asynchronous",
+    "overlap_acyclic_accuracy": 0.9851943264584798,
+    "overlap_cyclic_accuracy": 0.9837908341920232,
+    "cyclic_minus_acyclic_pp": -0.14034922664566407,
+    "matched_strata": 46,
+    "overlap_stone_trial_weight": 19017,
+    "overlap_fraction": 0.08333333333333333,
+    "matching": "generator, diameter bin, chain-size bin, edge-distance bin, exact capped liberty class; minimum30 stone-trials per group",
+    "interpretation": "Descriptive reweighting on common support, not causal evidence; stones are correlated and no stone-level confidence interval is claimed"
+  },
+  {
+    "size": 19,
+    "depth": 32,
+    "model": "Asynchronous",
+    "overlap_acyclic_accuracy": 0.9968045261838572,
+    "overlap_cyclic_accuracy": 0.9908695419747857,
+    "cyclic_minus_acyclic_pp": -0.5934984209071459,
+    "matched_strata": 44,
+    "overlap_stone_trial_weight": 15390,
+    "overlap_fraction": 0.06174957118353345,
+    "matching": "generator, diameter bin, chain-size bin, edge-distance bin, exact capped liberty class; minimum30 stone-trials per group",
+    "interpretation": "Descriptive reweighting on common support, not causal evidence; stones are correlated and no stone-level confidence interval is claimed"
+  },
+  {
+    "size": 25,
+    "depth": 32,
+    "model": "Asynchronous",
+    "overlap_acyclic_accuracy": 0.9982598827098077,
+    "overlap_cyclic_accuracy": 0.9972183588317107,
+    "cyclic_minus_acyclic_pp": -0.10415238780969727,
+    "matched_strata": 48,
+    "overlap_stone_trial_weight": 19413,
+    "overlap_fraction": 0.08624895037786397,
+    "matching": "generator, diameter bin, chain-size bin, edge-distance bin, exact capped liberty class; minimum30 stone-trials per group",
+    "interpretation": "Descriptive reweighting on common support, not causal evidence; stones are correlated and no stone-level confidence interval is claimed"
+  },
+  {
+    "size": 37,
+    "depth": 32,
+    "model": "Asynchronous",
+    "overlap_acyclic_accuracy": 0.9952566358333639,
+    "overlap_cyclic_accuracy": 0.9977016023115314,
+    "cyclic_minus_acyclic_pp": 0.24449664781674985,
+    "matched_strata": 46,
+    "overlap_stone_trial_weight": 16074,
+    "overlap_fraction": 0.06248578675763142,
+    "matching": "generator, diameter bin, chain-size bin, edge-distance bin, exact capped liberty class; minimum30 stone-trials per group",
+    "interpretation": "Descriptive reweighting on common support, not causal evidence; stones are correlated and no stone-level confidence interval is claimed"
+  }
+]

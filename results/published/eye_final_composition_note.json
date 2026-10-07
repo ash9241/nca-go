@@ -1,0 +1,20 @@
+{
+  "namespace": "sealed_eyes_20261007",
+  "file": "boards_9.npz",
+  "accepted_sources": {
+    "simple_eye_setup": 1,
+    "legal_random": 255
+  },
+  "class_stone_support": [
+    8902,
+    917,
+    218,
+    12,
+    7,
+    0,
+    0,
+    74,
+    0
+  ],
+  "interpretation": "At9x9,training exclusion exhausted nearly all finite constructed eye setups;255of256acceptedboardsarelegalrandom. Report this distribution shift and unsupported classes. Larger13\u201337sets contain all9eye classes."
+}

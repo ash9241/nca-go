@@ -1,0 +1,566 @@
+{
+  "completed_namespaces": [
+    {
+      "namespace": "sealed_eyes_20261007",
+      "task": "eyes",
+      "cap": 9,
+      "cohorts": [
+        {
+          "model": "nca",
+          "identifiers": 32,
+          "per_seed": [
+            {
+              "seed": 0,
+              "source_run": "20261007T052244865495Z_3db0aeb4_s0",
+              "macro": 0.22659505780960212,
+              "stone": 0.26525453861734133,
+              "witness_both": 0.003125,
+              "cycle_both": 0.0,
+              "ID_macro_range": 0.0010000552571820809,
+              "overcounts": 1569274,
+              "undercounts": 9453
+            },
+            {
+              "seed": 1,
+              "source_run": "20261007T052244835360Z_9a81e6eb_s1",
+              "macro": 0.25529440634763595,
+              "stone": 0.3288822118964644,
+              "witness_both": 0.003125,
+              "cycle_both": 0.7265625,
+              "ID_macro_range": 0.009978870267262657,
+              "overcounts": 434866,
+              "undercounts": 1007146
+            },
+            {
+              "seed": 2,
+              "source_run": "20261007T052244856336Z_1c743572_s2",
+              "macro": 0.21387783560583729,
+              "stone": 0.2531019159741459,
+              "witness_both": 0.0,
+              "cycle_both": 0.0,
+              "ID_macro_range": 0.000388719863678999,
+              "overcounts": 1565367,
+              "undercounts": 39472
+            }
+          ],
+          "macro": {
+            "mean": 0.23192243325435846,
+            "minimum": 0.21387783560583729,
+            "maximum": 0.25529440634763595,
+            "seeds": 3
+          },
+          "witness_both": {
+            "mean": 0.0020833333333333333,
+            "minimum": 0.0,
+            "maximum": 0.003125,
+            "seeds": 3
+          },
+          "cycle_both": {
+            "mean": 0.2421875,
+            "minimum": 0.0,
+            "maximum": 0.7265625,
+            "seeds": 3
+          }
+        }
+      ],
+      "primary_sources": [
+        "20261007T052244865495Z_3db0aeb4_s0",
+        "20261007T052244835360Z_9a81e6eb_s1",
+        "20261007T052244856336Z_1c743572_s2"
+      ]
+    },
+    {
+      "namespace": "sealed_lib16_20261007",
+      "task": "liberties",
+      "cap": 16,
+      "cohorts": [
+        {
+          "model": "nca",
+          "identifiers": 32,
+          "per_seed": [
+            {
+              "seed": 0,
+              "source_run": "20261007T053936157132Z_53ec7cd3_s0",
+              "macro": 0.34163999764384134,
+              "stone": 0.48655090837113246,
+              "witness_both": 0.0,
+              "cycle_both": 0.046875,
+              "ID_macro_range": 0.0021148650507581968,
+              "overcounts": 405394,
+              "undercounts": 455808
+            },
+            {
+              "seed": 1,
+              "source_run": "20261007T053936243064Z_630aa46f_s1",
+              "macro": 0.3397909451705632,
+              "stone": 0.5085638244594847,
+              "witness_both": 0.0,
+              "cycle_both": 0.0234375,
+              "ID_macro_range": 0.0034094347366025457,
+              "overcounts": 182561,
+              "undercounts": 641719
+            },
+            {
+              "seed": 2,
+              "source_run": "20261007T053936191430Z_55131ebc_s2",
+              "macro": 0.33177866243508697,
+              "stone": 0.47185158422405693,
+              "witness_both": 0.003125,
+              "cycle_both": 0.0625,
+              "ID_macro_range": 0.004704581497691596,
+              "overcounts": 418101,
+              "undercounts": 467756
+            }
+          ],
+          "macro": {
+            "mean": 0.3377365350831638,
+            "minimum": 0.33177866243508697,
+            "maximum": 0.34163999764384134,
+            "seeds": 3
+          },
+          "witness_both": {
+            "mean": 0.0010416666666666667,
+            "minimum": 0.0,
+            "maximum": 0.003125,
+            "seeds": 3
+          },
+          "cycle_both": {
+            "mean": 0.044270833333333336,
+            "minimum": 0.0234375,
+            "maximum": 0.0625,
+            "seeds": 3
+          }
+        }
+      ],
+      "primary_sources": [
+        "20261007T053936157132Z_53ec7cd3_s0",
+        "20261007T053936243064Z_630aa46f_s1",
+        "20261007T053936191430Z_55131ebc_s2"
+      ]
+    },
+    {
+      "namespace": "sealed_main_cap4_20261007",
+      "task": "liberties",
+      "cap": 4,
+      "cohorts": [
+        {
+          "model": "gnn_max",
+          "identifiers": 32,
+          "per_seed": [
+            {
+              "seed": 0,
+              "source_run": "20261007T034303025954Z_8d57c25b_s0",
+              "macro": 0.6112469512263974,
+              "stone": 0.6380106323447119,
+              "witness_both": 0.06875,
+              "cycle_both": 0.71875,
+              "ID_macro_range": 0.006741204421347291,
+              "overcounts": 331586,
+              "undercounts": 253189
+            },
+            {
+              "seed": 1,
+              "source_run": "20261007T052244852093Z_7f908a32_s1",
+              "macro": 0.67197166491797,
+              "stone": 0.7165349797703175,
+              "witness_both": 0.04375,
+              "cycle_both": 0.8125,
+              "ID_macro_range": 0.010307212213609418,
+              "overcounts": 286009,
+              "undercounts": 171914
+            },
+            {
+              "seed": 2,
+              "source_run": "20261007T052244867244Z_47740bd5_s2",
+              "macro": 0.562669580366296,
+              "stone": 0.6157815045733444,
+              "witness_both": 0.0,
+              "cycle_both": 0.875,
+              "ID_macro_range": 0.01536194545453784,
+              "overcounts": 527793,
+              "undercounts": 92892
+            }
+          ],
+          "macro": {
+            "mean": 0.6152960655035544,
+            "minimum": 0.562669580366296,
+            "maximum": 0.67197166491797,
+            "seeds": 3
+          },
+          "witness_both": {
+            "mean": 0.0375,
+            "minimum": 0.0,
+            "maximum": 0.06875,
+            "seeds": 3
+          },
+          "cycle_both": {
+            "mean": 0.8020833333333334,
+            "minimum": 0.71875,
+            "maximum": 0.875,
+            "seeds": 3
+          }
+        },
+        {
+          "model": "gnn_sum",
+          "identifiers": 32,
+          "per_seed": [
+            {
+              "seed": 0,
+              "source_run": "20261007T033546841933Z_c737424d_s0",
+              "macro": 0.5340835317691073,
+              "stone": 0.5769538852380269,
+              "witness_both": 0.015625,
+              "cycle_both": 0.8125,
+              "ID_macro_range": 0.003471821066431957,
+              "overcounts": 536443,
+              "undercounts": 146966
+            },
+            {
+              "seed": 1,
+              "source_run": "20261007T053936220768Z_fc91a87b_s1",
+              "macro": 0.628219813487495,
+              "stone": 0.6513351095176074,
+              "witness_both": 0.103125,
+              "cycle_both": 0.796875,
+              "ID_macro_range": 0.007038842332748985,
+              "overcounts": 301865,
+              "undercounts": 261385
+            },
+            {
+              "seed": 2,
+              "source_run": "20261007T053936231205Z_5bdef681_s2",
+              "macro": 0.6842832075412547,
+              "stone": 0.7064882311284548,
+              "witness_both": 0.184375,
+              "cycle_both": 0.7578125,
+              "ID_macro_range": 0.005307056766563845,
+              "overcounts": 29399,
+              "undercounts": 444754
+            }
+          ],
+          "macro": {
+            "mean": 0.615528850932619,
+            "minimum": 0.5340835317691073,
+            "maximum": 0.6842832075412547,
+            "seeds": 3
+          },
+          "witness_both": {
+            "mean": 0.10104166666666665,
+            "minimum": 0.015625,
+            "maximum": 0.184375,
+            "seeds": 3
+          },
+          "cycle_both": {
+            "mean": 0.7890625,
+            "minimum": 0.7578125,
+            "maximum": 0.8125,
+            "seeds": 3
+          }
+        },
+        {
+          "model": "nca",
+          "identifiers": 0,
+          "per_seed": [
+            {
+              "seed": 0,
+              "source_run": "20261007T031931683682Z_ae9416fd_s0",
+              "macro": 0.6534647360889557,
+              "stone": 0.7030107644030221,
+              "witness_both": 0.0,
+              "cycle_both": 0.5208333333333334,
+              "ID_macro_range": 0.004801115677418255,
+              "overcounts": 146041,
+              "undercounts": 33873
+            },
+            {
+              "seed": 1,
+              "source_run": "20261007T053936231071Z_38c16965_s1",
+              "macro": 0.6552124239084581,
+              "stone": 0.6982863783503607,
+              "witness_both": 0.016666666666666666,
+              "cycle_both": 0.5416666666666666,
+              "ID_macro_range": 0.005097834120552536,
+              "overcounts": 121558,
+              "undercounts": 61218
+            },
+            {
+              "seed": 2,
+              "source_run": "20261007T053936206382Z_7d7b12f0_s2",
+              "macro": 0.6256039439033468,
+              "stone": 0.6715709821671759,
+              "witness_both": 0.0,
+              "cycle_both": 0.6875,
+              "ID_macro_range": 0.002234453105892209,
+              "overcounts": 150209,
+              "undercounts": 48751
+            }
+          ],
+          "macro": {
+            "mean": 0.6447603679669203,
+            "minimum": 0.6256039439033468,
+            "maximum": 0.6552124239084581,
+            "seeds": 3
+          },
+          "witness_both": {
+            "mean": 0.005555555555555556,
+            "minimum": 0.0,
+            "maximum": 0.016666666666666666,
+            "seeds": 3
+          },
+          "cycle_both": {
+            "mean": 0.5833333333333334,
+            "minimum": 0.5208333333333334,
+            "maximum": 0.6875,
+            "seeds": 3
+          }
+        },
+        {
+          "model": "nca",
+          "identifiers": 32,
+          "per_seed": [
+            {
+              "seed": 0,
+              "source_run": "20261007T025650760669Z_1434950c_s0",
+              "macro": 0.6567712370282679,
+              "stone": 0.6975507722935061,
+              "witness_both": 0.0,
+              "cycle_both": 0.5625,
+              "ID_macro_range": 0.005281901189935434,
+              "overcounts": 298625,
+              "undercounts": 189966
+            },
+            {
+              "seed": 1,
+              "source_run": "20261007T025651578943Z_3fac6ab2_s1",
+              "macro": 0.6525620195824372,
+              "stone": 0.700241666707935,
+              "witness_both": 0.0,
+              "cycle_both": 0.5625,
+              "ID_macro_range": 0.005935595315373465,
+              "overcounts": 384248,
+              "undercounts": 99996
+            },
+            {
+              "seed": 2,
+              "source_run": "20261007T025651586214Z_b21f95e9_s2",
+              "macro": 0.6766369308836173,
+              "stone": 0.7242467724123587,
+              "witness_both": 0.01875,
+              "cycle_both": 0.7265625,
+              "ID_macro_range": 0.0033855117476275787,
+              "overcounts": 361123,
+              "undercounts": 84342
+            }
+          ],
+          "macro": {
+            "mean": 0.6619900624981075,
+            "minimum": 0.6525620195824372,
+            "maximum": 0.6766369308836173,
+            "seeds": 3
+          },
+          "witness_both": {
+            "mean": 0.0062499999999999995,
+            "minimum": 0.0,
+            "maximum": 0.01875,
+            "seeds": 3
+          },
+          "cycle_both": {
+            "mean": 0.6171875,
+            "minimum": 0.5625,
+            "maximum": 0.7265625,
+            "seeds": 3
+          }
+        },
+        {
+          "model": "rcnn",
+          "identifiers": 32,
+          "per_seed": [
+            {
+              "seed": 0,
+              "source_run": "20261007T034001840415Z_0b79b289_s0",
+              "macro": 0.664736409427036,
+              "stone": 0.7065730373246307,
+              "witness_both": 0.0,
+              "cycle_both": 0.5546875,
+              "ID_macro_range": 0.006629369262599272,
+              "overcounts": 335733,
+              "undercounts": 138283
+            },
+            {
+              "seed": 1,
+              "source_run": "20261007T053936244001Z_6b4a9788_s1",
+              "macro": 0.6369235284242314,
+              "stone": 0.6779871589800477,
+              "witness_both": 0.01875,
+              "cycle_both": 0.5625,
+              "ID_macro_range": 0.006584518519766935,
+              "overcounts": 385392,
+              "undercounts": 134803
+            },
+            {
+              "seed": 2,
+              "source_run": "20261007T053936215726Z_2829854e_s2",
+              "macro": 0.6616944613008381,
+              "stone": 0.697476489493936,
+              "witness_both": 0.05,
+              "cycle_both": 0.5625,
+              "ID_macro_range": 0.013141669737257167,
+              "overcounts": 332624,
+              "undercounts": 156087
+            }
+          ],
+          "macro": {
+            "mean": 0.6544514663840352,
+            "minimum": 0.6369235284242314,
+            "maximum": 0.664736409427036,
+            "seeds": 3
+          },
+          "witness_both": {
+            "mean": 0.02291666666666667,
+            "minimum": 0.0,
+            "maximum": 0.05,
+            "seeds": 3
+          },
+          "cycle_both": {
+            "mean": 0.5598958333333334,
+            "minimum": 0.5546875,
+            "maximum": 0.5625,
+            "seeds": 3
+          }
+        },
+        {
+          "model": "resnet",
+          "identifiers": 32,
+          "per_seed": [
+            {
+              "seed": 0,
+              "source_run": "20261007T032302917974Z_9187d013_s0",
+              "macro": 0.6959402945231508,
+              "stone": 0.7135896667673611,
+              "witness_both": 0.0,
+              "cycle_both": 0.5,
+              "ID_macro_range": 0.0015088705325608798,
+              "overcounts": 65781,
+              "undercounts": 396900
+            },
+            {
+              "seed": 1,
+              "source_run": "20261007T052244863430Z_cbaac2f4_s1",
+              "macro": 0.6934250291880808,
+              "stone": 0.7122420529784927,
+              "witness_both": 0.0,
+              "cycle_both": 0.75,
+              "ID_macro_range": 0.002066020540147817,
+              "overcounts": 111289,
+              "undercounts": 353569
+            },
+            {
+              "seed": 2,
+              "source_run": "20261007T052244868733Z_c97edadb_s2",
+              "macro": 0.7000716501839009,
+              "stone": 0.7202701665420367,
+              "witness_both": 0.0,
+              "cycle_both": 0.5625,
+              "ID_macro_range": 0.00029198304827726673,
+              "overcounts": 7099,
+              "undercounts": 444790
+            }
+          ],
+          "macro": {
+            "mean": 0.6964789912983775,
+            "minimum": 0.6934250291880808,
+            "maximum": 0.7000716501839009,
+            "seeds": 3
+          },
+          "witness_both": {
+            "mean": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0,
+            "seeds": 3
+          },
+          "cycle_both": {
+            "mean": 0.6041666666666666,
+            "minimum": 0.5,
+            "maximum": 0.75,
+            "seeds": 3
+          }
+        }
+      ],
+      "primary_sources": [
+        "20261007T025650760669Z_1434950c_s0",
+        "20261007T025651578943Z_3fac6ab2_s1",
+        "20261007T025651586214Z_b21f95e9_s2"
+      ]
+    },
+    {
+      "namespace": "sealed_race_20261007",
+      "task": "race",
+      "cap": 3,
+      "cohorts": [
+        {
+          "model": "nca",
+          "identifiers": 32,
+          "per_seed": [
+            {
+              "seed": 0,
+              "source_run": "20261007T071256064661Z_5e32ae36_s0",
+              "macro": 0.5803632143978317,
+              "stone": 0.5986514836923609,
+              "witness_both": 0.0,
+              "cycle_both": 0.125,
+              "ID_macro_range": 0.008617807001952582,
+              "overcounts": null,
+              "undercounts": null
+            },
+            {
+              "seed": 1,
+              "source_run": "20261007T071255960308Z_5ea1694f_s1",
+              "macro": 0.7041499114456988,
+              "stone": 0.7116289255125876,
+              "witness_both": 0.0078125,
+              "cycle_both": 0.1640625,
+              "ID_macro_range": 0.019995828247760028,
+              "overcounts": null,
+              "undercounts": null
+            },
+            {
+              "seed": 2,
+              "source_run": "20261007T071255749237Z_eeccb8cc_s2",
+              "macro": 0.7688797082594607,
+              "stone": 0.7722391642875681,
+              "witness_both": 0.0,
+              "cycle_both": 0.875,
+              "ID_macro_range": 0.040682223396883654,
+              "overcounts": null,
+              "undercounts": null
+            }
+          ],
+          "macro": {
+            "mean": 0.6844642780343304,
+            "minimum": 0.5803632143978317,
+            "maximum": 0.7688797082594607,
+            "seeds": 3
+          },
+          "witness_both": {
+            "mean": 0.0026041666666666665,
+            "minimum": 0.0,
+            "maximum": 0.0078125,
+            "seeds": 3
+          },
+          "cycle_both": {
+            "mean": 0.3880208333333333,
+            "minimum": 0.125,
+            "maximum": 0.875,
+            "seeds": 3
+          }
+        }
+      ],
+      "primary_sources": [
+        "20261007T071256064661Z_5e32ae36_s0",
+        "20261007T071255960308Z_5ea1694f_s1",
+        "20261007T071255749237Z_eeccb8cc_s2"
+      ]
+    }
+  ],
+  "interpretation_scope": "Completed sealed evaluations only;seed ranges are not confidence intervals"
+}

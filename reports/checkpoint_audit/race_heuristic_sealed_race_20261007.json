@@ -1,0 +1,1255 @@
+{
+  "scope": "final",
+  "namespace": "sealed_race_20261007",
+  "rule_selection": "fixed on9/13 validation before any new larger final sets",
+  "access": "Full board with exact group liberties and static simple-eye counts;not a local learned baseline",
+  "records": [
+    {
+      "split": "final",
+      "size": 9,
+      "baseline": "side_to_move",
+      "stone_accuracy": 0.3542009884678748,
+      "macro_accuracy": 0.3482627164980106,
+      "per_class_accuracy": [
+        0.4615873015873016,
+        0.5832008479067302,
+        0.0
+      ],
+      "confusion": [
+        [
+          1454,
+          1696,
+          0
+        ],
+        [
+          1573,
+          2201,
+          0
+        ],
+        [
+          1558,
+          1837,
+          0
+        ]
+      ],
+      "board_exact": 0.3515625,
+      "classification_errors": 6664,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 9,
+      "baseline": "liberty_advantage_then_turn",
+      "stone_accuracy": 0.663436379494137,
+      "macro_accuracy": 0.6590950614480026,
+      "per_class_accuracy": [
+        0.9876190476190476,
+        0.9896661367249603,
+        0.0
+      ],
+      "confusion": [
+        [
+          3111,
+          39,
+          0
+        ],
+        [
+          39,
+          3735,
+          0
+        ],
+        [
+          1596,
+          1799,
+          0
+        ]
+      ],
+      "board_exact": 0.66015625,
+      "classification_errors": 3473,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 9,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "stone_accuracy": 0.7419323577866073,
+      "macro_accuracy": 0.738623780151979,
+      "per_class_accuracy": [
+        0.9876190476190476,
+        0.9896661367249603,
+        0.23858615611192932
+      ],
+      "confusion": [
+        [
+          3111,
+          39,
+          0
+        ],
+        [
+          39,
+          3735,
+          0
+        ],
+        [
+          1252,
+          1333,
+          810
+        ]
+      ],
+      "board_exact": 0.7421875,
+      "classification_errors": 2663,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 13,
+      "baseline": "side_to_move",
+      "stone_accuracy": 0.286782720825274,
+      "macro_accuracy": 0.273281645545525,
+      "per_class_accuracy": [
+        0.3807564177934548,
+        0.43908851884312006,
+        0.0
+      ],
+      "confusion": [
+        [
+          1943,
+          3160,
+          0
+        ],
+        [
+          3200,
+          2505,
+          0
+        ],
+        [
+          2171,
+          2531,
+          0
+        ]
+      ],
+      "board_exact": 0.28515625,
+      "classification_errors": 11062,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 13,
+      "baseline": "liberty_advantage_then_turn",
+      "stone_accuracy": 0.6778852353320438,
+      "macro_accuracy": 0.6486616197136533,
+      "per_class_accuracy": [
+        0.9764844209288653,
+        0.9695004382120946,
+        0.0
+      ],
+      "confusion": [
+        [
+          4983,
+          120,
+          0
+        ],
+        [
+          174,
+          5531,
+          0
+        ],
+        [
+          2117,
+          2585,
+          0
+        ]
+      ],
+      "board_exact": 0.67578125,
+      "classification_errors": 4996,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 13,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "stone_accuracy": 0.7575112830431979,
+      "macro_accuracy": 0.7362130162824893,
+      "per_class_accuracy": [
+        0.9764844209288653,
+        0.9695004382120946,
+        0.2626541897065079
+      ],
+      "confusion": [
+        [
+          4983,
+          120,
+          0
+        ],
+        [
+          174,
+          5531,
+          0
+        ],
+        [
+          1651,
+          1816,
+          1235
+        ]
+      ],
+      "board_exact": 0.7578125,
+      "classification_errors": 3761,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 19,
+      "baseline": "side_to_move",
+      "stone_accuracy": 0.36127279782693056,
+      "macro_accuracy": 0.3402170249150797,
+      "per_class_accuracy": [
+        0.4958257713248639,
+        0.5248253034203751,
+        0.0
+      ],
+      "confusion": [
+        [
+          4098,
+          4167,
+          0
+        ],
+        [
+          3876,
+          4281,
+          0
+        ],
+        [
+          3061,
+          3710,
+          0
+        ]
+      ],
+      "board_exact": 0.359375,
+      "classification_errors": 14814,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 19,
+      "baseline": "liberty_advantage_then_turn",
+      "stone_accuracy": 0.7005562023024189,
+      "macro_accuracy": 0.6596026660988624,
+      "per_class_accuracy": [
+        0.9894736842105263,
+        0.9893343140860611,
+        0.0
+      ],
+      "confusion": [
+        [
+          8178,
+          87,
+          0
+        ],
+        [
+          87,
+          8070,
+          0
+        ],
+        [
+          3061,
+          3710,
+          0
+        ]
+      ],
+      "board_exact": 0.69921875,
+      "classification_errors": 6945,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 19,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "stone_accuracy": 0.7766567498814297,
+      "macro_accuracy": 0.7464928349562444,
+      "per_class_accuracy": [
+        0.9894736842105263,
+        0.9893343140860611,
+        0.2606705065721459
+      ],
+      "confusion": [
+        [
+          8178,
+          87,
+          0
+        ],
+        [
+          87,
+          8070,
+          0
+        ],
+        [
+          2266,
+          2740,
+          1765
+        ]
+      ],
+      "board_exact": 0.77734375,
+      "classification_errors": 5180,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 25,
+      "baseline": "side_to_move",
+      "stone_accuracy": 0.4145606531881804,
+      "macro_accuracy": 0.36250161488682425,
+      "per_class_accuracy": [
+        0.5481527766929626,
+        0.53935206796751,
+        0.0
+      ],
+      "confusion": [
+        [
+          7018,
+          5785,
+          0
+        ],
+        [
+          4934,
+          5777,
+          0
+        ],
+        [
+          3377,
+          3973,
+          0
+        ]
+      ],
+      "board_exact": 0.4140625,
+      "classification_errors": 18069,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 25,
+      "baseline": "liberty_advantage_then_turn",
+      "stone_accuracy": 0.750388802488336,
+      "macro_accuracy": 0.6562499955183388,
+      "per_class_accuracy": [
+        0.9907834101382489,
+        0.9779665764167678,
+        0.0
+      ],
+      "confusion": [
+        [
+          12685,
+          118,
+          0
+        ],
+        [
+          236,
+          10475,
+          0
+        ],
+        [
+          3497,
+          3853,
+          0
+        ]
+      ],
+      "board_exact": 0.75,
+      "classification_errors": 7704,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 25,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "stone_accuracy": 0.8275984966303784,
+      "macro_accuracy": 0.7643225578766155,
+      "per_class_accuracy": [
+        0.9907834101382489,
+        0.9779665764167678,
+        0.32421768707482995
+      ],
+      "confusion": [
+        [
+          12685,
+          118,
+          0
+        ],
+        [
+          236,
+          10475,
+          0
+        ],
+        [
+          2662,
+          2305,
+          2383
+        ]
+      ],
+      "board_exact": 0.828125,
+      "classification_errors": 5321,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 37,
+      "baseline": "side_to_move",
+      "stone_accuracy": 0.3523228652997664,
+      "macro_accuracy": 0.3352376674680886,
+      "per_class_accuracy": [
+        0.5191687567180222,
+        0.4865442456862435,
+        0.0
+      ],
+      "confusion": [
+        [
+          10143,
+          9394,
+          0
+        ],
+        [
+          6487,
+          6147,
+          0
+        ],
+        [
+          7213,
+          6852,
+          0
+        ]
+      ],
+      "board_exact": 0.3515625,
+      "classification_errors": 29946,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 37,
+      "baseline": "liberty_advantage_then_turn",
+      "stone_accuracy": 0.6919499956743663,
+      "macro_accuracy": 0.6619703445728458,
+      "per_class_accuracy": [
+        1.0,
+        0.9859110337185373,
+        0.0
+      ],
+      "confusion": [
+        [
+          19537,
+          0,
+          0
+        ],
+        [
+          178,
+          12456,
+          0
+        ],
+        [
+          7034,
+          7031,
+          0
+        ]
+      ],
+      "board_exact": 0.69140625,
+      "classification_errors": 14243,
+      "overcounts": null,
+      "undercounts": null
+    },
+    {
+      "split": "final",
+      "size": 37,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "stone_accuracy": 0.7924777229864175,
+      "macro_accuracy": 0.772125576235365,
+      "per_class_accuracy": [
+        1.0,
+        0.9859110337185373,
+        0.3304656949875578
+      ],
+      "confusion": [
+        [
+          19537,
+          0,
+          0
+        ],
+        [
+          178,
+          12456,
+          0
+        ],
+        [
+          5067,
+          4350,
+          4648
+        ]
+      ],
+      "board_exact": 0.79296875,
+      "classification_errors": 9595,
+      "overcounts": null,
+      "undercounts": null
+    }
+  ],
+  "paired": [
+    {
+      "kind": "race_witness",
+      "size": 9,
+      "baseline": "side_to_move",
+      "pairs": 16,
+      "pair_both_correct": 0.0,
+      "query_accuracy": 0.25,
+      "confusion": [
+        [
+          4,
+          6,
+          0
+        ],
+        [
+          2,
+          4,
+          0
+        ],
+        [
+          6,
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 9,
+      "baseline": "liberty_advantage_then_turn",
+      "pairs": 16,
+      "pair_both_correct": 0.0,
+      "query_accuracy": 0.25,
+      "confusion": [
+        [
+          4,
+          6,
+          0
+        ],
+        [
+          2,
+          4,
+          0
+        ],
+        [
+          6,
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 9,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "pairs": 16,
+      "pair_both_correct": 0.5,
+      "query_accuracy": 0.75,
+      "confusion": [
+        [
+          4,
+          6,
+          0
+        ],
+        [
+          2,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          16
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 9,
+      "baseline": "side_to_move",
+      "pairs": 16,
+      "pair_both_correct": 0.625,
+      "query_accuracy": 0.625,
+      "confusion": [
+        [
+          16,
+          12,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 9,
+      "baseline": "liberty_advantage_then_turn",
+      "pairs": 16,
+      "pair_both_correct": 1.0,
+      "query_accuracy": 1.0,
+      "confusion": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 9,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "pairs": 16,
+      "pair_both_correct": 1.0,
+      "query_accuracy": 1.0,
+      "confusion": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 13,
+      "baseline": "side_to_move",
+      "pairs": 16,
+      "pair_both_correct": 0.0,
+      "query_accuracy": 0.25,
+      "confusion": [
+        [
+          6,
+          5,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          9,
+          7,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 13,
+      "baseline": "liberty_advantage_then_turn",
+      "pairs": 16,
+      "pair_both_correct": 0.0,
+      "query_accuracy": 0.25,
+      "confusion": [
+        [
+          6,
+          5,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          9,
+          7,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 13,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "pairs": 16,
+      "pair_both_correct": 0.5,
+      "query_accuracy": 0.75,
+      "confusion": [
+        [
+          6,
+          5,
+          0
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          16
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 13,
+      "baseline": "side_to_move",
+      "pairs": 16,
+      "pair_both_correct": 0.625,
+      "query_accuracy": 0.625,
+      "confusion": [
+        [
+          16,
+          12,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 13,
+      "baseline": "liberty_advantage_then_turn",
+      "pairs": 16,
+      "pair_both_correct": 1.0,
+      "query_accuracy": 1.0,
+      "confusion": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 13,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "pairs": 16,
+      "pair_both_correct": 1.0,
+      "query_accuracy": 1.0,
+      "confusion": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 19,
+      "baseline": "side_to_move",
+      "pairs": 16,
+      "pair_both_correct": 0.0,
+      "query_accuracy": 0.25,
+      "confusion": [
+        [
+          5,
+          3,
+          0
+        ],
+        [
+          5,
+          3,
+          0
+        ],
+        [
+          10,
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 19,
+      "baseline": "liberty_advantage_then_turn",
+      "pairs": 16,
+      "pair_both_correct": 0.0,
+      "query_accuracy": 0.25,
+      "confusion": [
+        [
+          5,
+          3,
+          0
+        ],
+        [
+          5,
+          3,
+          0
+        ],
+        [
+          10,
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 19,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "pairs": 16,
+      "pair_both_correct": 0.5,
+      "query_accuracy": 0.75,
+      "confusion": [
+        [
+          5,
+          3,
+          0
+        ],
+        [
+          5,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          16
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 19,
+      "baseline": "side_to_move",
+      "pairs": 16,
+      "pair_both_correct": 0.625,
+      "query_accuracy": 0.625,
+      "confusion": [
+        [
+          16,
+          12,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 19,
+      "baseline": "liberty_advantage_then_turn",
+      "pairs": 16,
+      "pair_both_correct": 1.0,
+      "query_accuracy": 1.0,
+      "confusion": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 19,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "pairs": 16,
+      "pair_both_correct": 1.0,
+      "query_accuracy": 1.0,
+      "confusion": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 25,
+      "baseline": "side_to_move",
+      "pairs": 16,
+      "pair_both_correct": 0.0,
+      "query_accuracy": 0.25,
+      "confusion": [
+        [
+          3,
+          6,
+          0
+        ],
+        [
+          2,
+          5,
+          0
+        ],
+        [
+          5,
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 25,
+      "baseline": "liberty_advantage_then_turn",
+      "pairs": 16,
+      "pair_both_correct": 0.0,
+      "query_accuracy": 0.25,
+      "confusion": [
+        [
+          3,
+          6,
+          0
+        ],
+        [
+          2,
+          5,
+          0
+        ],
+        [
+          5,
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 25,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "pairs": 16,
+      "pair_both_correct": 0.5,
+      "query_accuracy": 0.75,
+      "confusion": [
+        [
+          3,
+          6,
+          0
+        ],
+        [
+          2,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          16
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 25,
+      "baseline": "side_to_move",
+      "pairs": 16,
+      "pair_both_correct": 0.625,
+      "query_accuracy": 0.625,
+      "confusion": [
+        [
+          16,
+          12,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 25,
+      "baseline": "liberty_advantage_then_turn",
+      "pairs": 16,
+      "pair_both_correct": 1.0,
+      "query_accuracy": 1.0,
+      "confusion": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 25,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "pairs": 16,
+      "pair_both_correct": 1.0,
+      "query_accuracy": 1.0,
+      "confusion": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 37,
+      "baseline": "side_to_move",
+      "pairs": 16,
+      "pair_both_correct": 0.0,
+      "query_accuracy": 0.25,
+      "confusion": [
+        [
+          3,
+          4,
+          0
+        ],
+        [
+          4,
+          5,
+          0
+        ],
+        [
+          7,
+          9,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 37,
+      "baseline": "liberty_advantage_then_turn",
+      "pairs": 16,
+      "pair_both_correct": 0.0,
+      "query_accuracy": 0.25,
+      "confusion": [
+        [
+          3,
+          4,
+          0
+        ],
+        [
+          4,
+          5,
+          0
+        ],
+        [
+          7,
+          9,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "race_witness",
+      "size": 37,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "pairs": 16,
+      "pair_both_correct": 0.5,
+      "query_accuracy": 0.75,
+      "confusion": [
+        [
+          3,
+          4,
+          0
+        ],
+        [
+          4,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          16
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 37,
+      "baseline": "side_to_move",
+      "pairs": 16,
+      "pair_both_correct": 0.625,
+      "query_accuracy": 0.625,
+      "confusion": [
+        [
+          16,
+          12,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 37,
+      "baseline": "liberty_advantage_then_turn",
+      "pairs": 16,
+      "pair_both_correct": 1.0,
+      "query_accuracy": 1.0,
+      "confusion": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "cycle_pairs",
+      "size": 37,
+      "baseline": "two_simple_eyes_plus_liberty_advantage",
+      "pairs": 16,
+      "pair_both_correct": 1.0,
+      "query_accuracy": 1.0,
+      "confusion": [
+        [
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+}

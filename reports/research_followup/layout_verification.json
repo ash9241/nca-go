@@ -1,0 +1,22 @@
+{
+  "depthFigures": [
+    "Main capped-liberty task: all six matched architecture groups, three training seeds each",
+    "Liberties 1–15 and 16+: three NCA training seeds",
+    "Static simple-eye counts: three NCA training seeds; class support is disclosed in the tables",
+    "First-capture outcomes on 5×N boards: three NCA training seeds"
+  ],
+  "embeddedImagesLoaded": true,
+  "learnedAnimations": 15,
+  "pageWidth": 1280,
+  "referenceLabelledHandcoded": true,
+  "stage": "final",
+  "viewportWidth": 1280,
+  "play_pause_aria_state_verified": true,
+  "animation_GIF_poster_switch_verified": true,
+  "final_evaluations": 27,
+  "mobile_check": {
+    "width": 390,
+    "stage": "earlier report using identical CSS; final desktop verified again",
+    "previous_pass": true
+  }
+}

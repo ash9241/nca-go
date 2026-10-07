@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-07T10:42:00Z",
+  "positive_control": {
+    "source": "https://arxiv.org/html/2609.36126v1",
+    "recipe": "Table 3 Maze-OOD; paper-based JAX reproduction",
+    "training": "50000 public 9x9 mazes, 5000 updates, batch 64, fixed final EMA",
+    "small_gate": "exact path >=99% on first512 D4-disjoint and D4-unique official test9 at depths100,400,800",
+    "ood_gate": "exact path >=95% for all3 inference seeds; first256 test59 D2000 and first64 test201 D13000",
+    "on_failure": "Hold all Go experiment execution; diagnose positive control first"
+  },
+  "ladder": ["chain touches supplied marked stone (OR)", "atari: 1 vs >=2 distinct liberties", "liberty count cap4"],
+  "conditions": ["9x9 only", "sizes5..19 on19x19 canvas, including long snakes"],
+  "ood_sizes": [25,31,37,43,49],
+  "training_seeds": [0,1,2],
+  "identifier_buckets": 256,
+  "identifier_draws_eval": 8,
+  "identifier_draws_train": 2,
+  "message_reference": "local liberty one-hot bucket IDs, same-color orthogonal neighbor elementwise-max union",
+  "intermediate_supervision": "step-aligned hand-coded union including frozen draw and initial state; not full-chain target at early steps",
+  "message_saturation": "clip to [0,1], learned messages; reference is binary",
+  "id_consistency": "probability disagreement between two independent draws per board; collision conflict reported separately",
+  "collision_guarantee": "Only the hand-coded bucket union undercounts. Learned maximum across8 draws has no such guarantee.",
+  "sealed_hygiene": "Every evaluated model must pass own >=95% small macro and stability gates; no baseline exception",
+  "depth": "report D/chain stone-graph diameter, D=2 and4 times max diameter; conventions for singleton documented",
+  "cap4_extrapolation_gate": ">=95% macro and >=90% pair-both-correct on all prespecified larger sizes with depths<=4diameter; all3 seeds",
+  "richer_tasks": {
+    "status": "paused until cap4 extrapolation gate passes",
+    "race_training_seeds_after_gate": [0,1,2,3,4],
+    "eyes": "repair generator diversity and class support before freezing any future set"
+  }
+}

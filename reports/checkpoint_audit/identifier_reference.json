@@ -1,0 +1,3208 @@
+{
+  "final_existing_subsets": [
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 16,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 16,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 16,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 16,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 7,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 16,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 16,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 16,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 16,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 32,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 32,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 32,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 7,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 32,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 32,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 32,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 32,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "random",
+      "bits": 32,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 570,
+      "total_stones": 570,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 8,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 9,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 928,
+      "total_stones": 928,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 26,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 16,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 13,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 16,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 2,
+      "maximum_rounds_to_fixed_point": 13,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 16,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 2,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 16,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 16,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 16,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 13,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 16,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 2,
+      "maximum_rounds_to_fixed_point": 13,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 16,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 32,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 13,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 32,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 32,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 32,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 32,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 32,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 13,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 32,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "random",
+      "bits": 32,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1168,
+      "total_stones": 1168,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 13,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 13,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 1746,
+      "total_stones": 1746,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 66,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 16,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 2,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 16,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 3,
+      "maximum_rounds_to_fixed_point": 11,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 16,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 5,
+      "maximum_rounds_to_fixed_point": 11,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 16,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 4,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 16,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 7,
+      "maximum_rounds_to_fixed_point": 11,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 16,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 8,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 16,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 8,
+      "maximum_rounds_to_fixed_point": 11,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 16,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 6,
+      "maximum_rounds_to_fixed_point": 11,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 32,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 11,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 32,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 32,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 32,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 12,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 32,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 11,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 32,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 11,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 32,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 11,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "random",
+      "bits": 32,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 2599,
+      "total_stones": 2599,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 11,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 5,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 2,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 4,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 3,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 4,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 3,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 19,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 3618,
+      "total_stones": 3618,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 157,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 16,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 16,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 16,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 15,
+      "maximum_rounds_to_fixed_point": 15,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 16,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 16,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 16,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 11,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 16,
+      "draw": 4,
+      "stone_accuracy": 0.9998038061604866,
+      "correct_stones": 5096,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 26,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 16,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 20,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 16,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 13,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 16,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 13,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 32,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 15,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 32,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 32,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 32,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 32,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 32,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 32,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "random",
+      "bits": 32,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 5097,
+      "total_stones": 5097,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 2,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 3,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 1,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 2,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 2,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 25,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 9294,
+      "total_stones": 9294,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 271,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 16,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 57,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 16,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 85,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 16,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 69,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 16,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 75,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 16,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 72,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 16,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 78,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 16,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 68,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 16,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 57,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 32,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 32,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 32,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 32,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 32,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 32,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 32,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 16,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "random",
+      "bits": 32,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 10639,
+      "total_stones": 10639,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 17,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 29,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 22,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 28,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 19,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 18,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 17,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 23,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 16,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 23,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 0,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 1,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 2,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 3,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 4,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 5,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 6,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    },
+    {
+      "size": 37,
+      "generator": "structured",
+      "bits": 32,
+      "draw": 7,
+      "stone_accuracy": 1.0,
+      "correct_stones": 18565,
+      "total_stones": 18565,
+      "empty_cell_ID_collisions": 0,
+      "maximum_rounds_to_fixed_point": 627,
+      "scope": "first16 boards from existing opened test; exact reference, not learned model"
+    }
+  ],
+  "witness": [
+    {
+      "size": 9,
+      "bits": 16,
+      "draw": 0,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 16,
+      "draw": 1,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 16,
+      "draw": 2,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 16,
+      "draw": 3,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 16,
+      "draw": 4,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 16,
+      "draw": 5,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 16,
+      "draw": 6,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 16,
+      "draw": 7,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 32,
+      "draw": 0,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 32,
+      "draw": 1,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 32,
+      "draw": 2,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 32,
+      "draw": 3,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 32,
+      "draw": 4,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 32,
+      "draw": 5,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 32,
+      "draw": 6,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 9,
+      "bits": 32,
+      "draw": 7,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 16,
+      "draw": 0,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 16,
+      "draw": 1,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 16,
+      "draw": 2,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 16,
+      "draw": 3,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 16,
+      "draw": 4,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 16,
+      "draw": 5,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 16,
+      "draw": 6,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 16,
+      "draw": 7,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 32,
+      "draw": 0,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 32,
+      "draw": 1,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 32,
+      "draw": 2,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 32,
+      "draw": 3,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 32,
+      "draw": 4,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 32,
+      "draw": 5,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 32,
+      "draw": 6,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 13,
+      "bits": 32,
+      "draw": 7,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 16,
+      "draw": 0,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 16,
+      "draw": 1,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 16,
+      "draw": 2,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 16,
+      "draw": 3,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 16,
+      "draw": 4,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 16,
+      "draw": 5,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 16,
+      "draw": 6,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 16,
+      "draw": 7,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 32,
+      "draw": 0,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 32,
+      "draw": 1,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 32,
+      "draw": 2,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 32,
+      "draw": 3,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 32,
+      "draw": 4,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 32,
+      "draw": 5,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 32,
+      "draw": 6,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 19,
+      "bits": 32,
+      "draw": 7,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 16,
+      "draw": 0,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 16,
+      "draw": 1,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 16,
+      "draw": 2,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 16,
+      "draw": 3,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 16,
+      "draw": 4,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 16,
+      "draw": 5,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 16,
+      "draw": 6,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 16,
+      "draw": 7,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 32,
+      "draw": 0,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 32,
+      "draw": 1,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 32,
+      "draw": 2,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 32,
+      "draw": 3,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 32,
+      "draw": 4,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 32,
+      "draw": 5,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 32,
+      "draw": 6,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 25,
+      "bits": 32,
+      "draw": 7,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 16,
+      "draw": 0,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 16,
+      "draw": 1,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 16,
+      "draw": 2,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 16,
+      "draw": 3,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 16,
+      "draw": 4,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 16,
+      "draw": 5,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 16,
+      "draw": 6,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 16,
+      "draw": 7,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 32,
+      "draw": 0,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 32,
+      "draw": 1,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 32,
+      "draw": 2,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 32,
+      "draw": 3,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 32,
+      "draw": 4,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 32,
+      "draw": 5,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 32,
+      "draw": 6,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    },
+    {
+      "size": 37,
+      "bits": 32,
+      "draw": 7,
+      "pairs": 40,
+      "pair_both_correct": 1.0,
+      "geometries": [
+        "comb",
+        "elbow",
+        "ring",
+        "snake",
+        "straight"
+      ],
+      "coupled_IDs": true,
+      "scope": "exact reference, not learned replication"
+    }
+  ],
+  "iid_ID_collision_probability": "nonzero; no uniqueness enforcement",
+  "warning": "Hand-coded counting results do not establish neural learnability"
+}

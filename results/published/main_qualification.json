@@ -1,0 +1,122 @@
+{
+  "primary_gate_passed": true,
+  "runs": [
+    {
+      "run": "20261007T025650760669Z_1434950c_s0",
+      "seed": 0,
+      "initialization": "scratch",
+      "qualified": true,
+      "assessment": {
+        "nine_accuracy": {
+          "32": 0.9670939543853765,
+          "64": 0.9903938873050477,
+          "128": 0.9920813768237464,
+          "512": 0.9925530353848734,
+          "1024": 0.9925111101794399
+        },
+        "nine_macro_at128": 0.9924639369293925,
+        "useful_accuracy": true,
+        "stability_gate": true,
+        "stability_gate_definition": "9x9 absolute accuracy change <=0.2pp from128 to512 and1024"
+      },
+      "ID_range_pp": 0.19285594499413028,
+      "checkpoint_iteration": 30000,
+      "checkpoint_sha256": "9a0e72077883c1e9197c5b1f900063626413153c5afa1e5c559f2e4523edcf96",
+      "summary_sha256": "cf7a964c4b922bac9e12d740ee8777083d7834229e2bc1425a960c068e11f103",
+      "candidate_stream_sha256": "035123066d717036ee1db8f548d5814e78d154409522ca0a3b4d65f3eab2b674",
+      "supervised_stream_sha256": "d3dc33113735fa3f6b2dd22e144780b39deb9b25e966c04f06ba9db5a7753e3b"
+    },
+    {
+      "run": "20261007T025651578943Z_3fac6ab2_s1",
+      "seed": 1,
+      "initialization": "scratch",
+      "qualified": true,
+      "assessment": {
+        "nine_accuracy": {
+          "32": 0.991793141036391,
+          "64": 0.9953148582928056,
+          "128": 0.9953620241489183,
+          "512": 0.9953515428475599,
+          "1024": 0.9953305802448431
+        },
+        "nine_macro_at128": 0.9954148367578324,
+        "useful_accuracy": true,
+        "stability_gate": true,
+        "stability_gate_definition": "9x9 absolute accuracy change <=0.2pp from128 to512 and1024"
+      },
+      "ID_range_pp": 0.14254569847391707,
+      "checkpoint_iteration": 30000,
+      "checkpoint_sha256": "3d33fab7d19753a70084e9c733daf7c9c65d9f38cf6e3ff1d8bf45b4095a3e35",
+      "summary_sha256": "3fdce10bc6f01d8da09f67d7464a0995bc2ea7be274e65188a99ac2b7e114bdb",
+      "candidate_stream_sha256": "035123066d717036ee1db8f548d5814e78d154409522ca0a3b4d65f3eab2b674",
+      "supervised_stream_sha256": "d3dc33113735fa3f6b2dd22e144780b39deb9b25e966c04f06ba9db5a7753e3b"
+    },
+    {
+      "run": "20261007T025651586214Z_b21f95e9_s2",
+      "seed": 2,
+      "initialization": "scratch",
+      "qualified": true,
+      "assessment": {
+        "nine_accuracy": {
+          "32": 0.9930246939460003,
+          "64": 0.9974006372631226,
+          "128": 0.9977832047627033,
+          "512": 0.9980819218514171,
+          "1024": 0.9980924031527755
+        },
+        "nine_macro_at128": 0.9980622629956704,
+        "useful_accuracy": true,
+        "stability_gate": true,
+        "stability_gate_definition": "9x9 absolute accuracy change <=0.2pp from128 to512 and1024"
+      },
+      "ID_range_pp": 0.15931578064732888,
+      "checkpoint_iteration": 30000,
+      "checkpoint_sha256": "d758bd66bda113c1c67f0e62c3f3e266584075a56c8363fc5398c0c0998bd54f",
+      "summary_sha256": "70379f526ebcab6b730a3da2759610bb3aee56ae652d03e26155fd8624d43259",
+      "candidate_stream_sha256": "035123066d717036ee1db8f548d5814e78d154409522ca0a3b4d65f3eab2b674",
+      "supervised_stream_sha256": "d3dc33113735fa3f6b2dd22e144780b39deb9b25e966c04f06ba9db5a7753e3b"
+    }
+  ],
+  "scope": "Frozen9/13 validation only;no new final data used to choose checkpoints",
+  "thresholds": {
+    "absolute_depth_change_pp": 0.2,
+    "minimum_macro_accuracy": 0.95,
+    "maximum_ID_accuracy_range_pp": 0.2
+  },
+  "recipe": {
+    "batch_size": 64,
+    "cap": 4,
+    "change_weight": 0.1,
+    "channels": 64,
+    "checkpoint_every": 5000,
+    "damage": true,
+    "data_seed": 91001,
+    "ema_decay": 0.99,
+    "gradient_window": 32,
+    "identifier_channels": 32,
+    "identifier_input_scale": 0.1767766952966369,
+    "identifier_replay_policy": "trajectory",
+    "identifier_zero_init": false,
+    "init_sigma": 0.0,
+    "late_steps": 8,
+    "learning_rate": 0.0005,
+    "log_every": 1000,
+    "max_depth": 128,
+    "min_depth": 32,
+    "model": "nca",
+    "noise_sigma": 0.15,
+    "normalization_groups": 4,
+    "online_prefetch": true,
+    "recipe_role": "prospective three-seed rescue;qualified only if full9x9 stability,usefulness and ID-draw gates pass",
+    "reserved_identifier_channels": 32,
+    "schedule_steps": 30000,
+    "seed_fraction": 0.25,
+    "selection": "final EMA; validation only; no final-test selection",
+    "target_swap": true,
+    "task": "liberties",
+    "training_steps": 30000,
+    "validation_count": 512,
+    "validation_seed": 91002,
+    "warmup_steps": 5000
+  }
+}

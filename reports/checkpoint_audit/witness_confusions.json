@@ -1,0 +1,4034 @@
+[
+  {
+    "run": "20261006T183555928117Z_a0ccc727_s0",
+    "size": 13,
+    "depth": 8,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T183555928117Z_a0ccc727_s0",
+    "size": 13,
+    "depth": 16,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T183555928117Z_a0ccc727_s0",
+    "size": 13,
+    "depth": 32,
+    "stone_trials": 384,
+    "accuracy": 0.20833333333333334,
+    "macro_accuracy": 0.20833333333333334,
+    "overcounts": 227,
+    "undercounts": 77,
+    "confusion": [
+      [
+        80,
+        1,
+        0,
+        111
+      ],
+      [
+        77,
+        0,
+        0,
+        115
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T183555928117Z_a0ccc727_s0",
+    "size": 13,
+    "depth": 64,
+    "stone_trials": 384,
+    "accuracy": 0.0,
+    "macro_accuracy": 0.0,
+    "overcounts": 384,
+    "undercounts": 0,
+    "confusion": [
+      [
+        0,
+        0,
+        1,
+        191
+      ],
+      [
+        0,
+        0,
+        0,
+        192
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T183555928117Z_a0ccc727_s0",
+    "size": 13,
+    "depth": 128,
+    "stone_trials": 384,
+    "accuracy": 0.0,
+    "macro_accuracy": 0.0,
+    "overcounts": 384,
+    "undercounts": 0,
+    "confusion": [
+      [
+        0,
+        0,
+        0,
+        192
+      ],
+      [
+        0,
+        0,
+        0,
+        192
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T183555928117Z_a0ccc727_s0",
+    "size": 13,
+    "depth": 256,
+    "stone_trials": 384,
+    "accuracy": 0.0,
+    "macro_accuracy": 0.0,
+    "overcounts": 384,
+    "undercounts": 0,
+    "confusion": [
+      [
+        0,
+        0,
+        0,
+        192
+      ],
+      [
+        0,
+        0,
+        0,
+        192
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T184135582937Z_88b2ee3f_s0",
+    "size": 13,
+    "depth": 8,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T184135582937Z_88b2ee3f_s0",
+    "size": 13,
+    "depth": 16,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T184135582937Z_88b2ee3f_s0",
+    "size": 13,
+    "depth": 32,
+    "stone_trials": 128,
+    "accuracy": 0.5078125,
+    "macro_accuracy": 0.5078125,
+    "overcounts": 0,
+    "undercounts": 63,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        63,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T184135582937Z_88b2ee3f_s0",
+    "size": 13,
+    "depth": 64,
+    "stone_trials": 128,
+    "accuracy": 0.59375,
+    "macro_accuracy": 0.59375,
+    "overcounts": 0,
+    "undercounts": 52,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        52,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T184135582937Z_88b2ee3f_s0",
+    "size": 13,
+    "depth": 128,
+    "stone_trials": 128,
+    "accuracy": 0.4140625,
+    "macro_accuracy": 0.4140625,
+    "overcounts": 54,
+    "undercounts": 21,
+    "confusion": [
+      [
+        21,
+        43,
+        0,
+        0
+      ],
+      [
+        21,
+        32,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T184135582937Z_88b2ee3f_s0",
+    "size": 13,
+    "depth": 256,
+    "stone_trials": 128,
+    "accuracy": 0.1015625,
+    "macro_accuracy": 0.1015625,
+    "overcounts": 115,
+    "undercounts": 0,
+    "confusion": [
+      [
+        0,
+        22,
+        41,
+        1
+      ],
+      [
+        0,
+        13,
+        39,
+        12
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T185959689439Z_3c9250e5_s0",
+    "size": 13,
+    "depth": 8,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T185959689439Z_3c9250e5_s0",
+    "size": 13,
+    "depth": 16,
+    "stone_trials": 128,
+    "accuracy": 0.671875,
+    "macro_accuracy": 0.671875,
+    "overcounts": 0,
+    "undercounts": 42,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        42,
+        22,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T185959689439Z_3c9250e5_s0",
+    "size": 13,
+    "depth": 32,
+    "stone_trials": 128,
+    "accuracy": 0.5859375,
+    "macro_accuracy": 0.5859375,
+    "overcounts": 0,
+    "undercounts": 53,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        53,
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T185959689439Z_3c9250e5_s0",
+    "size": 13,
+    "depth": 64,
+    "stone_trials": 128,
+    "accuracy": 0.546875,
+    "macro_accuracy": 0.546875,
+    "overcounts": 0,
+    "undercounts": 58,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        58,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T185959689439Z_3c9250e5_s0",
+    "size": 13,
+    "depth": 128,
+    "stone_trials": 128,
+    "accuracy": 0.5078125,
+    "macro_accuracy": 0.5078125,
+    "overcounts": 0,
+    "undercounts": 63,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        63,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T185959689439Z_3c9250e5_s0",
+    "size": 13,
+    "depth": 256,
+    "stone_trials": 128,
+    "accuracy": 0.5078125,
+    "macro_accuracy": 0.5078125,
+    "overcounts": 0,
+    "undercounts": 63,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        63,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 8,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 16,
+    "stone_trials": 128,
+    "accuracy": 0.515625,
+    "macro_accuracy": 0.515625,
+    "overcounts": 62,
+    "undercounts": 0,
+    "confusion": [
+      [
+        33,
+        31,
+        0,
+        0
+      ],
+      [
+        0,
+        33,
+        31,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 32,
+    "stone_trials": 128,
+    "accuracy": 0.796875,
+    "macro_accuracy": 0.796875,
+    "overcounts": 19,
+    "undercounts": 7,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        38,
+        19,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 64,
+    "stone_trials": 128,
+    "accuracy": 0.890625,
+    "macro_accuracy": 0.890625,
+    "overcounts": 14,
+    "undercounts": 0,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        50,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 128,
+    "stone_trials": 128,
+    "accuracy": 0.890625,
+    "macro_accuracy": 0.890625,
+    "overcounts": 14,
+    "undercounts": 0,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        50,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 256,
+    "stone_trials": 128,
+    "accuracy": 0.9296875,
+    "macro_accuracy": 0.9296875,
+    "overcounts": 9,
+    "undercounts": 0,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        55,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 8,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 16,
+    "stone_trials": 128,
+    "accuracy": 0.40625,
+    "macro_accuracy": 0.40625,
+    "overcounts": 76,
+    "undercounts": 0,
+    "confusion": [
+      [
+        26,
+        38,
+        0,
+        0
+      ],
+      [
+        0,
+        26,
+        38,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 32,
+    "stone_trials": 128,
+    "accuracy": 0.7421875,
+    "macro_accuracy": 0.7421875,
+    "overcounts": 29,
+    "undercounts": 4,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        31,
+        29,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 64,
+    "stone_trials": 128,
+    "accuracy": 0.84375,
+    "macro_accuracy": 0.84375,
+    "overcounts": 20,
+    "undercounts": 0,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        44,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 128,
+    "stone_trials": 128,
+    "accuracy": 0.84375,
+    "macro_accuracy": 0.84375,
+    "overcounts": 20,
+    "undercounts": 0,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        44,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 13,
+    "depth": 256,
+    "stone_trials": 128,
+    "accuracy": 0.8515625,
+    "macro_accuracy": 0.8515625,
+    "overcounts": 19,
+    "undercounts": 0,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        45,
+        19,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 19,
+    "depth": 8,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 19,
+    "depth": 16,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 19,
+    "depth": 32,
+    "stone_trials": 128,
+    "accuracy": 0.6640625,
+    "macro_accuracy": 0.6640625,
+    "overcounts": 36,
+    "undercounts": 7,
+    "confusion": [
+      [
+        50,
+        14,
+        0,
+        0
+      ],
+      [
+        7,
+        35,
+        22,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 19,
+    "depth": 64,
+    "stone_trials": 128,
+    "accuracy": 0.6953125,
+    "macro_accuracy": 0.6953125,
+    "overcounts": 36,
+    "undercounts": 3,
+    "confusion": [
+      [
+        50,
+        14,
+        0,
+        0
+      ],
+      [
+        3,
+        39,
+        22,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 19,
+    "depth": 128,
+    "stone_trials": 128,
+    "accuracy": 0.75,
+    "macro_accuracy": 0.75,
+    "overcounts": 32,
+    "undercounts": 0,
+    "confusion": [
+      [
+        50,
+        14,
+        0,
+        0
+      ],
+      [
+        0,
+        46,
+        18,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 19,
+    "depth": 256,
+    "stone_trials": 128,
+    "accuracy": 0.75,
+    "macro_accuracy": 0.75,
+    "overcounts": 32,
+    "undercounts": 0,
+    "confusion": [
+      [
+        50,
+        14,
+        0,
+        0
+      ],
+      [
+        0,
+        46,
+        18,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 25,
+    "depth": 8,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 25,
+    "depth": 16,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 25,
+    "depth": 32,
+    "stone_trials": 128,
+    "accuracy": 0.5859375,
+    "macro_accuracy": 0.5859375,
+    "overcounts": 45,
+    "undercounts": 8,
+    "confusion": [
+      [
+        48,
+        16,
+        0,
+        0
+      ],
+      [
+        8,
+        27,
+        9,
+        20
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 25,
+    "depth": 64,
+    "stone_trials": 128,
+    "accuracy": 0.6796875,
+    "macro_accuracy": 0.6796875,
+    "overcounts": 41,
+    "undercounts": 0,
+    "confusion": [
+      [
+        48,
+        16,
+        0,
+        0
+      ],
+      [
+        0,
+        39,
+        5,
+        20
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 25,
+    "depth": 128,
+    "stone_trials": 128,
+    "accuracy": 0.6796875,
+    "macro_accuracy": 0.6796875,
+    "overcounts": 41,
+    "undercounts": 0,
+    "confusion": [
+      [
+        48,
+        16,
+        0,
+        0
+      ],
+      [
+        0,
+        39,
+        3,
+        22
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 25,
+    "depth": 256,
+    "stone_trials": 128,
+    "accuracy": 0.6796875,
+    "macro_accuracy": 0.6796875,
+    "overcounts": 41,
+    "undercounts": 0,
+    "confusion": [
+      [
+        48,
+        16,
+        0,
+        0
+      ],
+      [
+        0,
+        39,
+        3,
+        22
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 37,
+    "depth": 8,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 37,
+    "depth": 16,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 37,
+    "depth": 32,
+    "stone_trials": 128,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 64,
+    "confusion": [
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 37,
+    "depth": 64,
+    "stone_trials": 128,
+    "accuracy": 0.640625,
+    "macro_accuracy": 0.640625,
+    "overcounts": 46,
+    "undercounts": 0,
+    "confusion": [
+      [
+        48,
+        16,
+        0,
+        0
+      ],
+      [
+        0,
+        34,
+        14,
+        16
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 37,
+    "depth": 128,
+    "stone_trials": 128,
+    "accuracy": 0.6953125,
+    "macro_accuracy": 0.6953125,
+    "overcounts": 39,
+    "undercounts": 0,
+    "confusion": [
+      [
+        48,
+        16,
+        0,
+        0
+      ],
+      [
+        0,
+        41,
+        0,
+        23
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T200156953891Z_3768a5c8_s0",
+    "size": 37,
+    "depth": 256,
+    "stone_trials": 128,
+    "accuracy": 0.5234375,
+    "macro_accuracy": 0.5234375,
+    "overcounts": 61,
+    "undercounts": 0,
+    "confusion": [
+      [
+        48,
+        13,
+        3,
+        0
+      ],
+      [
+        0,
+        19,
+        9,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      64,
+      64,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 13,
+    "depth": 8,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 13,
+    "depth": 16,
+    "stone_trials": 384,
+    "accuracy": 0.6302083333333334,
+    "macro_accuracy": 0.6302083333333334,
+    "overcounts": 128,
+    "undercounts": 14,
+    "confusion": [
+      [
+        136,
+        53,
+        3,
+        0
+      ],
+      [
+        14,
+        106,
+        72,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 13,
+    "depth": 32,
+    "stone_trials": 384,
+    "accuracy": 0.7135416666666666,
+    "macro_accuracy": 0.7135416666666666,
+    "overcounts": 110,
+    "undercounts": 0,
+    "confusion": [
+      [
+        98,
+        94,
+        0,
+        0
+      ],
+      [
+        0,
+        176,
+        16,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 13,
+    "depth": 64,
+    "stone_trials": 384,
+    "accuracy": 0.65625,
+    "macro_accuracy": 0.65625,
+    "overcounts": 132,
+    "undercounts": 0,
+    "confusion": [
+      [
+        97,
+        95,
+        0,
+        0
+      ],
+      [
+        0,
+        155,
+        37,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 13,
+    "depth": 128,
+    "stone_trials": 384,
+    "accuracy": 0.4921875,
+    "macro_accuracy": 0.4921875,
+    "overcounts": 195,
+    "undercounts": 0,
+    "confusion": [
+      [
+        97,
+        95,
+        0,
+        0
+      ],
+      [
+        0,
+        92,
+        100,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 13,
+    "depth": 256,
+    "stone_trials": 384,
+    "accuracy": 0.4661458333333333,
+    "macro_accuracy": 0.46614583333333337,
+    "overcounts": 205,
+    "undercounts": 0,
+    "confusion": [
+      [
+        97,
+        95,
+        0,
+        0
+      ],
+      [
+        0,
+        82,
+        110,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 19,
+    "depth": 8,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 19,
+    "depth": 16,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 19,
+    "depth": 32,
+    "stone_trials": 384,
+    "accuracy": 0.7526041666666666,
+    "macro_accuracy": 0.7526041666666667,
+    "overcounts": 95,
+    "undercounts": 0,
+    "confusion": [
+      [
+        97,
+        95,
+        0,
+        0
+      ],
+      [
+        0,
+        192,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 19,
+    "depth": 64,
+    "stone_trials": 384,
+    "accuracy": 0.6197916666666666,
+    "macro_accuracy": 0.6197916666666666,
+    "overcounts": 146,
+    "undercounts": 0,
+    "confusion": [
+      [
+        95,
+        97,
+        0,
+        0
+      ],
+      [
+        0,
+        143,
+        49,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 19,
+    "depth": 128,
+    "stone_trials": 384,
+    "accuracy": 0.4322916666666667,
+    "macro_accuracy": 0.4322916666666667,
+    "overcounts": 218,
+    "undercounts": 0,
+    "confusion": [
+      [
+        95,
+        97,
+        0,
+        0
+      ],
+      [
+        0,
+        71,
+        121,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 19,
+    "depth": 256,
+    "stone_trials": 384,
+    "accuracy": 0.3932291666666667,
+    "macro_accuracy": 0.3932291666666667,
+    "overcounts": 233,
+    "undercounts": 0,
+    "confusion": [
+      [
+        95,
+        97,
+        0,
+        0
+      ],
+      [
+        0,
+        56,
+        136,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 25,
+    "depth": 8,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 25,
+    "depth": 16,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 25,
+    "depth": 32,
+    "stone_trials": 384,
+    "accuracy": 0.6380208333333334,
+    "macro_accuracy": 0.6380208333333334,
+    "overcounts": 71,
+    "undercounts": 68,
+    "confusion": [
+      [
+        121,
+        71,
+        0,
+        0
+      ],
+      [
+        68,
+        124,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 25,
+    "depth": 64,
+    "stone_trials": 384,
+    "accuracy": 0.578125,
+    "macro_accuracy": 0.578125,
+    "overcounts": 162,
+    "undercounts": 0,
+    "confusion": [
+      [
+        77,
+        115,
+        0,
+        0
+      ],
+      [
+        0,
+        145,
+        47,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 25,
+    "depth": 128,
+    "stone_trials": 384,
+    "accuracy": 0.4166666666666667,
+    "macro_accuracy": 0.4166666666666667,
+    "overcounts": 224,
+    "undercounts": 0,
+    "confusion": [
+      [
+        77,
+        115,
+        0,
+        0
+      ],
+      [
+        0,
+        83,
+        109,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 25,
+    "depth": 256,
+    "stone_trials": 384,
+    "accuracy": 0.3932291666666667,
+    "macro_accuracy": 0.3932291666666667,
+    "overcounts": 233,
+    "undercounts": 0,
+    "confusion": [
+      [
+        77,
+        115,
+        0,
+        0
+      ],
+      [
+        0,
+        74,
+        118,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 37,
+    "depth": 8,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 37,
+    "depth": 16,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 37,
+    "depth": 32,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 37,
+    "depth": 64,
+    "stone_trials": 384,
+    "accuracy": 0.7473958333333334,
+    "macro_accuracy": 0.7473958333333334,
+    "overcounts": 93,
+    "undercounts": 4,
+    "confusion": [
+      [
+        103,
+        89,
+        0,
+        0
+      ],
+      [
+        4,
+        184,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 37,
+    "depth": 128,
+    "stone_trials": 384,
+    "accuracy": 0.4713541666666667,
+    "macro_accuracy": 0.47135416666666663,
+    "overcounts": 203,
+    "undercounts": 0,
+    "confusion": [
+      [
+        102,
+        90,
+        0,
+        0
+      ],
+      [
+        0,
+        79,
+        113,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T201026705778Z_5c97d885_s0",
+    "size": 37,
+    "depth": 256,
+    "stone_trials": 384,
+    "accuracy": 0.4270833333333333,
+    "macro_accuracy": 0.42708333333333337,
+    "overcounts": 220,
+    "undercounts": 0,
+    "confusion": [
+      [
+        102,
+        90,
+        0,
+        0
+      ],
+      [
+        0,
+        62,
+        123,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 13,
+    "depth": 8,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 13,
+    "depth": 16,
+    "stone_trials": 384,
+    "accuracy": 0.5026041666666666,
+    "macro_accuracy": 0.5026041666666667,
+    "overcounts": 50,
+    "undercounts": 141,
+    "confusion": [
+      [
+        154,
+        37,
+        1,
+        0
+      ],
+      [
+        141,
+        39,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 13,
+    "depth": 32,
+    "stone_trials": 384,
+    "accuracy": 0.1953125,
+    "macro_accuracy": 0.1953125,
+    "overcounts": 309,
+    "undercounts": 0,
+    "confusion": [
+      [
+        0,
+        192,
+        0,
+        0
+      ],
+      [
+        0,
+        75,
+        117,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 13,
+    "depth": 64,
+    "stone_trials": 384,
+    "accuracy": 0.7838541666666666,
+    "macro_accuracy": 0.7838541666666667,
+    "overcounts": 83,
+    "undercounts": 0,
+    "confusion": [
+      [
+        190,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        111,
+        81,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 13,
+    "depth": 128,
+    "stone_trials": 384,
+    "accuracy": 0.6458333333333334,
+    "macro_accuracy": 0.6458333333333334,
+    "overcounts": 136,
+    "undercounts": 0,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        56,
+        134,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 13,
+    "depth": 256,
+    "stone_trials": 384,
+    "accuracy": 0.5286458333333334,
+    "macro_accuracy": 0.5286458333333333,
+    "overcounts": 181,
+    "undercounts": 0,
+    "confusion": [
+      [
+        164,
+        28,
+        0,
+        0
+      ],
+      [
+        0,
+        39,
+        133,
+        20
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 19,
+    "depth": 8,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 19,
+    "depth": 16,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 19,
+    "depth": 32,
+    "stone_trials": 384,
+    "accuracy": 0.4270833333333333,
+    "macro_accuracy": 0.42708333333333337,
+    "overcounts": 169,
+    "undercounts": 51,
+    "confusion": [
+      [
+        69,
+        122,
+        1,
+        0
+      ],
+      [
+        51,
+        95,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 19,
+    "depth": 64,
+    "stone_trials": 384,
+    "accuracy": 0.6145833333333334,
+    "macro_accuracy": 0.6145833333333333,
+    "overcounts": 148,
+    "undercounts": 0,
+    "confusion": [
+      [
+        185,
+        7,
+        0,
+        0
+      ],
+      [
+        0,
+        51,
+        79,
+        62
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 19,
+    "depth": 128,
+    "stone_trials": 384,
+    "accuracy": 0.6119791666666666,
+    "macro_accuracy": 0.6119791666666667,
+    "overcounts": 149,
+    "undercounts": 0,
+    "confusion": [
+      [
+        184,
+        7,
+        1,
+        0
+      ],
+      [
+        0,
+        51,
+        64,
+        77
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 19,
+    "depth": 256,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 192,
+    "undercounts": 0,
+    "confusion": [
+      [
+        138,
+        50,
+        3,
+        1
+      ],
+      [
+        0,
+        54,
+        45,
+        93
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 25,
+    "depth": 8,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 25,
+    "depth": 16,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 25,
+    "depth": 32,
+    "stone_trials": 384,
+    "accuracy": 0.5052083333333334,
+    "macro_accuracy": 0.5052083333333334,
+    "overcounts": 11,
+    "undercounts": 179,
+    "confusion": [
+      [
+        181,
+        11,
+        0,
+        0
+      ],
+      [
+        179,
+        13,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 25,
+    "depth": 64,
+    "stone_trials": 384,
+    "accuracy": 0.23697916666666666,
+    "macro_accuracy": 0.23697916666666666,
+    "overcounts": 293,
+    "undercounts": 0,
+    "confusion": [
+      [
+        58,
+        110,
+        22,
+        2
+      ],
+      [
+        0,
+        33,
+        97,
+        62
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 25,
+    "depth": 128,
+    "stone_trials": 384,
+    "accuracy": 0.22395833333333334,
+    "macro_accuracy": 0.22395833333333334,
+    "overcounts": 298,
+    "undercounts": 0,
+    "confusion": [
+      [
+        53,
+        59,
+        69,
+        11
+      ],
+      [
+        0,
+        33,
+        63,
+        96
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 25,
+    "depth": 256,
+    "stone_trials": 384,
+    "accuracy": 0.18489583333333334,
+    "macro_accuracy": 0.18489583333333331,
+    "overcounts": 311,
+    "undercounts": 2,
+    "confusion": [
+      [
+        35,
+        10,
+        92,
+        55
+      ],
+      [
+        2,
+        36,
+        41,
+        113
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 37,
+    "depth": 8,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 37,
+    "depth": 16,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 37,
+    "depth": 32,
+    "stone_trials": 384,
+    "accuracy": 0.5,
+    "macro_accuracy": 0.5,
+    "overcounts": 0,
+    "undercounts": 192,
+    "confusion": [
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        192,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 37,
+    "depth": 64,
+    "stone_trials": 384,
+    "accuracy": 0.4296875,
+    "macro_accuracy": 0.4296875,
+    "overcounts": 204,
+    "undercounts": 15,
+    "confusion": [
+      [
+        76,
+        88,
+        28,
+        0
+      ],
+      [
+        15,
+        89,
+        67,
+        21
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 37,
+    "depth": 128,
+    "stone_trials": 384,
+    "accuracy": 0.3723958333333333,
+    "macro_accuracy": 0.37239583333333337,
+    "overcounts": 241,
+    "undercounts": 0,
+    "confusion": [
+      [
+        80,
+        7,
+        51,
+        54
+      ],
+      [
+        0,
+        63,
+        30,
+        99
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  },
+  {
+    "run": "20261006T203954573173Z_e14d292b_s0",
+    "size": 37,
+    "depth": 256,
+    "stone_trials": 384,
+    "accuracy": 0.2786458333333333,
+    "macro_accuracy": 0.27864583333333337,
+    "overcounts": 264,
+    "undercounts": 13,
+    "confusion": [
+      [
+        42,
+        4,
+        65,
+        81
+      ],
+      [
+        13,
+        65,
+        21,
+        93
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_counts": [
+      192,
+      192,
+      0,
+      0
+    ]
+  }
+]

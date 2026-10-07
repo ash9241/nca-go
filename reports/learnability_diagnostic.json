@@ -1,0 +1,58 @@
+{
+  "source_runs": [
+    "results/learnability/20261006T173759726632Z_8af2adc7_s0",
+    "results/learnability/20261006T174035450095Z_089ae337_s0"
+  ],
+  "scope": "Constructed target chains only; not whole-board G1; no final test boards evaluated",
+  "training_rollout_depth": 16,
+  "longer_rollout_depth": 64,
+  "small_set": {
+    "mse_all": {
+      "train": 0.9246066293295925,
+      "validation9": 0.3584655927412617,
+      "validation13": 0.2959854112426497,
+      "train_at_longer_depth": 0.28745738754469113
+    },
+    "mse_late": {
+      "train": 0.8868758038809436,
+      "validation9": 0.3046669231628334,
+      "validation13": 0.3369087616461589,
+      "train_at_longer_depth": 0.256478671199075
+    },
+    "ce_late": {
+      "train": 0.9811674805570627,
+      "validation9": 0.31022513105845007,
+      "validation13": 0.363091939374084,
+      "train_at_longer_depth": 0.3578015635687266
+    },
+    "ce_late_async": {
+      "train": 0.847343913787284,
+      "validation9": 0.35157389326541527,
+      "validation13": 0.388596867056999,
+      "train_at_longer_depth": 0.23919603947211013
+    }
+  },
+  "combined_replay_pilot": {
+    "train": {
+      "32": 0.3207677960063708,
+      "64": 0.3146077390656114,
+      "128": 0.3093261161777022
+    },
+    "validation9": {
+      "32": 0.31158120606795703,
+      "64": 0.3040201664357371,
+      "128": 0.3035625024285282
+    },
+    "validation13": {
+      "32": 0.275273943254886,
+      "64": 0.2693903554599321,
+      "128": 0.26140890966755786
+    }
+  },
+  "limitations": [
+    "One training seed",
+    "No matched learned baseline in this diagnostic",
+    "Replay pilot changes data, augmentation, initial noise, depth and optimizer together; no isolated causal attribution",
+    "Final weights used; no checkpoint selection"
+  ]
+}

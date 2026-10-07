@@ -1,0 +1,119 @@
+{
+  "recipe": "configs/research_ids32.json",
+  "base_recipe": "configs/research_stability.json",
+  "qualification": "full9x9 validation of saved from-scratch whole-board checkpoint; 3 firing draws; no larger final tests opened",
+  "source_training_run": "20261006T225357999728Z_680d29cb_s0",
+  "selection_utc": "2026-10-06T23:55:05Z",
+  "nine_accuracy_128": 0.983607244675499,
+  "nine_accuracy_512": 0.9832718430320307,
+  "nine_accuracy_1024": 0.983257867963553,
+  "macro_accuracy_128": 0.9857406958158368,
+  "primary_training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "primary_initialization": "from scratch; no exploratory warmstart",
+  "selection_scope": "9/13 validation only",
+  "alternative_stability_pilots": "still running; not used to select large-test checkpoints",
+  "qualification_probe": "20261006T235143098456Z_e475c52e_s0",
+  "qualification_checkpoint_iteration": 20000,
+  "qualification_checkpoint_sha256": "50ed2f7bd8bcd857f9e5de3f0bbe2a2560d2e16121cb6ba3532ba8212c35a91c",
+  "prospective_rescue": {
+    "config": "configs/research_ids32_rescue.json",
+    "training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "selected_before_final_large_data": true,
+    "qualification_pending": false,
+    "basis": "completed small-board projection pilot plus prospective ID optimization and replay-consistency hypotheses",
+    "projection_run": "20261006T233116006879Z_2cd175e8_s0",
+    "training_steps": 20000,
+    "schedule_steps": 30000,
+    "gradient_window": 32,
+    "matched_baseline_training_seeds": [
+      0
+    ],
+    "matched_baselines": [
+      "resnet",
+      "rcnn",
+      "gnn_sum",
+      "gnn_max"
+    ],
+    "capacity_control": "zero IDs,reserving32 frozen channels,seed0;identical candidate and supervised-data stream",
+    "primary_gate_passed": false,
+    "failure": "20k seed0 exceeded prespecified0.2pp ID-range threshold"
+  },
+  "prospective_extension": {
+    "config": "configs/research_ids32_rescue.json",
+    "training_steps": 30000,
+    "schedule_steps": 30000,
+    "training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "selected_before_final_large_data": true,
+    "qualification_pending": false,
+    "reason": "20k seed0 passed relative depth stability but failed prespecified ID-range threshold:0.28928391749120097pp>0.2pp; learning still improving",
+    "execution": "scratch reruns with identical first20k recipe,initialization,data,and learning-rate schedule;prefix checked when artifacts return",
+    "matched_baseline_steps": 30000,
+    "matched_baseline_training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "capacity_control_training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "primary_gate_passed": true
+  },
+  "baseline_replication_extension": {
+    "selected_before_final_large_data": true,
+    "training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "training_steps": 30000,
+    "models": [
+      "resnet",
+      "rcnn",
+      "gnn_sum",
+      "gnn_max",
+      "capacity_matched_zero_ID_NCA"
+    ],
+    "execution": "additional seeds after natural worker restart; preserve8h guard;no active training interrupted for restart",
+    "reason": "replicate the witness comparison across all learned architectures"
+  },
+  "richer_task_replication": {
+    "training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "training_steps": 20000,
+    "schedule_steps": 30000,
+    "tasks": [
+      "liberties_cap16",
+      "static_simple_eyes",
+      "regular_rectangular_first_capture"
+    ],
+    "selected_before_final_large_data": true,
+    "scope": "three-seed learned diagnostics;rich-task baselines are fixed reference/heuristic controls,not a full neural-baseline sweep"
+  },
+  "active_recipe": "configs/research_ids32_rescue.json",
+  "active_training_steps": 30000,
+  "active_primary_runs": [
+    "20261007T025650760669Z_1434950c_s0",
+    "20261007T025651578943Z_3fac6ab2_s1",
+    "20261007T025651586214Z_b21f95e9_s2"
+  ],
+  "active_qualification": "results/cloud/research/main_qualification.json",
+  "active_qualification_sha256": "d7221ac640815f9fb3565aefcf30134eca94de8460a02a0f58aecee10d22795f",
+  "active_qualified_utc": "2026-10-07T05:03:13.634439+00:00"
+}

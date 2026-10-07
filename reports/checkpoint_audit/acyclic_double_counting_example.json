@@ -1,0 +1,44 @@
+{
+  "board": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "stone_graph_cycle": false,
+  "exact_liberties": 7,
+  "sum_of_local_liberties": 8,
+  "cap4_hides_error": true,
+  "interpretation": "A liberty may touch two stones in an acyclic chain. Stone-graph cycles are not necessary for naive double counting."
+}

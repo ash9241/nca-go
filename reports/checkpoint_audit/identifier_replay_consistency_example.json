@@ -1,0 +1,50 @@
+{
+  "board": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      1,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  ],
+  "true_liberties": 1,
+  "old_liberty_id": 101,
+  "new_liberty_id": 303,
+  "persistent_id_union": [
+    101
+  ],
+  "rerolled_id_union_without_reset": [
+    101,
+    303
+  ],
+  "interpretation": "A monotone symbolic union retains a stale name when IDs reroll without clearing state. Learned gated NCAs can forget; this is not proof of their failure mechanism."
+}

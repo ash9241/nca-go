@@ -1,0 +1,48 @@
+profile: smoke
+seeds: [0]
+tasks: [liberties, benson, ladders]
+train_size: 9
+validation_size: 13
+test_sizes: [9, 13, 19, 25, 37]
+train_count: 48
+validation_count: 4
+test_count: 4
+crosscheck_games: 12
+training_steps: 80
+batch_size: 4
+evaluation_batch_size: 4
+channels: 16
+input_channels: 8
+heads: 2
+expansion: 2
+rollout_steps: 16
+chunk_steps: 16
+learning_rate: 0.0004
+ema: 0.9
+fire_rate: 0.8
+init_sigma: 0.15
+readout: mse
+normalization_groups: 0
+seed_fraction: 0.25
+noise: true
+damage: true
+target_swap: true
+replay: true
+neighborhood: moore
+evaluation_steps: [32, 64]
+auto_steps_cap: 128
+trials: [1, 2]
+noise_sigmas: [0, 0.1, 0.3, 1.0]
+baseline_blocks: [4, 8, 16]
+baseline_ratios: [1, 10]
+ablations: [async, replay, noise, damage, target_swap, neighborhood]
+ring_pairs: 3
+bootstrap_samples: 1000
+ladder_node_budget: 5000
+commit_phases: true
+player_positions: 1600
+player_evaluation_counts: {9: 128, 13: 128, 19: 144}
+warm_positions: 4
+player_loss_weights: {policy: 1.0, ownership: 1.0, score: 0.001, winrate: 1.0}
+player_games: 2
+player_visits: [1, 16]

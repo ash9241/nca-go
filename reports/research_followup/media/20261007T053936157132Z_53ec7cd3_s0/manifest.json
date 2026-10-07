@@ -1,0 +1,93 @@
+{
+  "source_run": "20261007T053936157132Z_53ec7cd3_s0",
+  "checkpoint_sha256": "6f8c6d314f7efa3b5edcd94d1af832386ca7a7664642ff075e4a1ccb0cae0d21",
+  "final_namespace": "sealed_lib16_20261007",
+  "examples": [
+    {
+      "name": "first_snake_37",
+      "selection": "First snake witness above cap4; coupled fixed-depth evaluator keys; ID draw0",
+      "steps": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        646,
+        1024,
+        1292,
+        2584
+      ],
+      "query_predictions": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "evaluator_files": [
+        "witness_37_draw0.npz"
+      ],
+      "evaluator_board_indices": [
+        34,
+        35
+      ]
+    }
+  ],
+  "scope": "Learned-model illustrations; no outcome-based example selection"
+}

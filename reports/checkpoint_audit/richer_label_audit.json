@@ -1,0 +1,7 @@
+{
+  "simple_eye_definition": "all orthogonal neighbors friendly/wall; interior at most1 enemy diagonal, edge/corner none; per-chain distinct adjacent points, cap8",
+  "race_definition": "first anchored-group capture; simple ko and no suicide; two passes draw; depth24/node20000 unknown rejected",
+  "race_domain": "5xN regular rectangular board, no internal walls; square canvas padded outside",
+  "balanced_race_pair": "two changed cells,6 liberties each group on both members; independently solved draw vs capture",
+  "scope": "oracle and generator verification only; no learned final accuracy measured"
+}

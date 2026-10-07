@@ -1,0 +1,94 @@
+{
+  "source_run": "20261007T071256064661Z_5e32ae36_s0",
+  "checkpoint_sha256": "29dfbb17e6b4a7059ad21ac279376d18b27c17ab75f828252e42d57f07def499",
+  "final_namespace": "sealed_race_20261007",
+  "examples": [
+    {
+      "name": "first_race_witness_37",
+      "selection": "First prespecified witness family pair; coupled fixed-depth evaluator keys; ID draw0",
+      "steps": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        104,
+        128,
+        208,
+        256,
+        416,
+        512,
+        1024
+      ],
+      "query_predictions": [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "evaluator_files": [
+        "race_witness_37_draw0.npz"
+      ],
+      "evaluator_board_indices": [
+        0,
+        1
+      ]
+    }
+  ],
+  "rendered_from_saved_states": true,
+  "scope": "Learned-model illustrations; no outcome-based example selection"
+}

@@ -1,0 +1,111 @@
+{
+  "videos": 15,
+  "all_decodable_H264": true,
+  "records": [
+    {
+      "file": "reports/research_followup/media/20261007T025650760669Z_1434950c_s0/first_final_9.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "10.500000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T025650760669Z_1434950c_s0/first_snake_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "12.600000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T025651578943Z_3fac6ab2_s1/first_final_9.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "10.500000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T025651578943Z_3fac6ab2_s1/first_snake_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "12.600000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T025651586214Z_b21f95e9_s2/first_final_9.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "10.500000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T025651586214Z_b21f95e9_s2/first_snake_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "12.600000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T052244835360Z_9a81e6eb_s1/first_eye_witness_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "9.800000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T052244856336Z_1c743572_s2/first_eye_witness_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "9.800000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T052244865495Z_3db0aeb4_s0/first_eye_witness_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "9.800000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T053936157132Z_53ec7cd3_s0/first_snake_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "9.800000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T053936191430Z_55131ebc_s2/first_snake_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "9.800000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T053936243064Z_630aa46f_s1/first_snake_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "9.800000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T071255749237Z_eeccb8cc_s2/first_race_witness_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "9.800000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T071255960308Z_5ea1694f_s1/first_race_witness_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "9.800000"
+    },
+    {
+      "file": "reports/research_followup/media/20261007T071256064661Z_5e32ae36_s0/first_race_witness_37.mp4",
+      "codec_name": "h264",
+      "width": 1000,
+      "height": 400,
+      "duration": "9.800000"
+    }
+  ]
+}

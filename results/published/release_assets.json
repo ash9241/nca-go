@@ -1,0 +1,17 @@
+[
+  {
+    "file": "go-evaluation-v1.zip",
+    "bytes": 261452047,
+    "sha256": "7a6bce953e0d1fb0ffd356f4e70351857775ac7c0c8bb74ecfe942d8b51e7cdb"
+  },
+  {
+    "file": "maze-control-v1.zip",
+    "bytes": 52387858,
+    "sha256": "0e83f4d9721a4c261e441b47cc6a7d296f384b7878b2d99660551c1dae71c0d2"
+  },
+  {
+    "file": "measurements-v1.zip",
+    "bytes": 135543134,
+    "sha256": "4c37f0764a4009e948d3d670567640b793fc7ac3f21e53d3932ac8d73d02a1db"
+  }
+]

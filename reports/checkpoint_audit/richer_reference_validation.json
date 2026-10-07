@@ -1,0 +1,70 @@
+{
+  "scope": "Hand-coded reference; not a learned model; entire existing frozen9/13 validation splits",
+  "cap": 16,
+  "seed": 115001,
+  "loading_phase": 1,
+  "propagation": "At most each board maximum chain diameter message rounds after local-ID loading",
+  "collision_policy": "IID finite identifiers; collisions are not repaired",
+  "records": [
+    {
+      "size": 9,
+      "boards": 256,
+      "identifier_bits": 32,
+      "draws": 8,
+      "correct_stone_draws": 97512,
+      "stone_draws": 97512,
+      "accuracy": 1.0,
+      "empty_ID_collisions": 0,
+      "class_stone_support_per_draw": [
+        1624,
+        3909,
+        1465,
+        1267,
+        865,
+        649,
+        460,
+        313,
+        223,
+        176,
+        267,
+        238,
+        242,
+        296,
+        133,
+        62
+      ],
+      "maximum_executed_message_rounds": 30,
+      "validation_sha256": "0b8972b47f0034ebc667dde30c5b803d4ea37040499d1450ea8835a7f7e4ab42"
+    },
+    {
+      "size": 13,
+      "boards": 128,
+      "identifier_bits": 32,
+      "draws": 8,
+      "correct_stone_draws": 100448,
+      "stone_draws": 100448,
+      "accuracy": 1.0,
+      "empty_ID_collisions": 0,
+      "class_stone_support_per_draw": [
+        1645,
+        3401,
+        1380,
+        1142,
+        873,
+        754,
+        826,
+        470,
+        345,
+        405,
+        317,
+        187,
+        260,
+        342,
+        71,
+        138
+      ],
+      "maximum_executed_message_rounds": 70,
+      "validation_sha256": "4734e38dce34dc65b179971ffd497b6bc46fb11fc5230e85109d6897911a81fe"
+    }
+  ]
+}

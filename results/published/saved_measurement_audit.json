@@ -1,0 +1,250 @@
+{
+  "evaluations": 27,
+  "all_exact": true,
+  "scope": "Independent NumPy reconstruction of all reported37-board ratio4 accuracy/confusion and primary witness-pair metrics from saved predictions and frozen labels",
+  "checks": [
+    {
+      "run": "20261007T065938620716Z_6f7c2eb5_s2",
+      "namespace": "sealed_eyes_20261007",
+      "seed": 2,
+      "source_run": "20261007T052244856336Z_1c743572_s2",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T065938680906Z_2f6d6251_s1",
+      "namespace": "sealed_eyes_20261007",
+      "seed": 1,
+      "source_run": "20261007T052244835360Z_9a81e6eb_s1",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.003125
+    },
+    {
+      "run": "20261007T065938886078Z_19f81849_s0",
+      "namespace": "sealed_eyes_20261007",
+      "seed": 0,
+      "source_run": "20261007T052244865495Z_3db0aeb4_s0",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.003125
+    },
+    {
+      "run": "20261007T081316778353Z_d8fcc2e3_s0",
+      "namespace": "sealed_lib16_20261007",
+      "seed": 0,
+      "source_run": "20261007T053936157132Z_53ec7cd3_s0",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T081316955355Z_a53412d8_s1",
+      "namespace": "sealed_lib16_20261007",
+      "seed": 1,
+      "source_run": "20261007T053936243064Z_630aa46f_s1",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T081316961946Z_a69655d2_s2",
+      "namespace": "sealed_lib16_20261007",
+      "seed": 2,
+      "source_run": "20261007T053936191430Z_55131ebc_s2",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.003125
+    },
+    {
+      "run": "20261007T085005942175Z_d22e51af_s0",
+      "namespace": "sealed_race_20261007",
+      "seed": 0,
+      "source_run": "20261007T071256064661Z_5e32ae36_s0",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T085005975903Z_b1160dba_s2",
+      "namespace": "sealed_race_20261007",
+      "seed": 2,
+      "source_run": "20261007T071255749237Z_eeccb8cc_s2",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T085005993320Z_8e1d3eed_s1",
+      "namespace": "sealed_race_20261007",
+      "seed": 1,
+      "source_run": "20261007T071255960308Z_5ea1694f_s1",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0078125
+    },
+    {
+      "run": "20261007T091602085399Z_cd28eea6_s0",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 0,
+      "source_run": "20261007T025650760669Z_1434950c_s0",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T091602491967Z_c2ff6ca0_s2",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 2,
+      "source_run": "20261007T025651586214Z_b21f95e9_s2",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.018750000000000003
+    },
+    {
+      "run": "20261007T091602594841Z_798ff2c6_s1",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 1,
+      "source_run": "20261007T025651578943Z_3fac6ab2_s1",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T091605529490Z_3131c78a_s0",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 0,
+      "source_run": "20261007T032302917974Z_9187d013_s0",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T091606902769Z_ae72945d_s0",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 0,
+      "source_run": "20261007T034001840415Z_0b79b289_s0",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T091607081198Z_16dbaecc_s1",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 1,
+      "source_run": "20261007T053936244001Z_6b4a9788_s1",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.018750000000000003
+    },
+    {
+      "run": "20261007T091610832893Z_6ab37465_s0",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 0,
+      "source_run": "20261007T031931683682Z_ae9416fd_s0",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T091611409250Z_1eb38ae4_s0",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 0,
+      "source_run": "20261007T033546841933Z_c737424d_s0",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.015625
+    },
+    {
+      "run": "20261007T091743118220Z_bf99ec1f_s0",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 0,
+      "source_run": "20261007T034303025954Z_8d57c25b_s0",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.06875
+    },
+    {
+      "run": "20261007T092242741488Z_c8c10c8b_s2",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 2,
+      "source_run": "20261007T053936215726Z_2829854e_s2",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.05
+    },
+    {
+      "run": "20261007T093139712033Z_c6ebf97a_s2",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 2,
+      "source_run": "20261007T053936231205Z_5bdef681_s2",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.18437499999999998
+    },
+    {
+      "run": "20261007T093139714279Z_b4954872_s1",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 1,
+      "source_run": "20261007T053936220768Z_fc91a87b_s1",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.103125
+    },
+    {
+      "run": "20261007T093209523851Z_514805ef_s2",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 2,
+      "source_run": "20261007T052244868733Z_c97edadb_s2",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T093209548720Z_3e9162f4_s1",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 1,
+      "source_run": "20261007T052244863430Z_cbaac2f4_s1",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T093209656936Z_8648cf07_s1",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 1,
+      "source_run": "20261007T052244852093Z_7f908a32_s1",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.043750000000000004
+    },
+    {
+      "run": "20261007T093323649230Z_70e98689_s2",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 2,
+      "source_run": "20261007T052244867244Z_47740bd5_s2",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    },
+    {
+      "run": "20261007T093432928122Z_bbfe3a85_s1",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 1,
+      "source_run": "20261007T053936231071Z_38c16965_s1",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.016666666666666666
+    },
+    {
+      "run": "20261007T093507927137Z_5c7db797_s2",
+      "namespace": "sealed_main_cap4_20261007",
+      "seed": 2,
+      "source_run": "20261007T053936206382Z_7d7b12f0_s2",
+      "saved_37_board_confusion_and_accuracy_exact": true,
+      "saved_37_witness_pair_accuracy_exact": true,
+      "witness_both_correct": 0.0
+    }
+  ]
+}
