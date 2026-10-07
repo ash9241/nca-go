@@ -38,7 +38,7 @@ unzip -q downloads/go-evaluation-v1.zip -d .
 unzip -q downloads/maze-control-v1.zip -d .
 ```
 
-Each archive has its own `PUBLIC_MANIFEST.json`. Extracting the second archive replaces that manifest, so verify each ZIP before extraction. The original weights, arrays, and measured numbers are unchanged. Workspace prefixes were made relative; machine account inventory and operational logs were omitted. Original source snapshots may retain a historical editable-install path in their lock file; use the current installation command above.
+Each archive has its own `PUBLIC_MANIFEST.json`. Extracting the second archive replaces that manifest, so verify each ZIP before extraction. The original weights, arrays, and measured numbers are unchanged. Workspace prefixes were made relative; machine account inventory and operational logs were omitted. Nested source archives retain the original Python code; their editable-install paths and tar owner metadata are sanitized. Both original and public archive hashes are recorded in `results/published/source_archive_redactions.json`. Historical source revision IDs predate this public repository.
 
 The archive of measurements includes historical appendices and duplicate figures. Extract it into a separate directory when reading the appendices:
 

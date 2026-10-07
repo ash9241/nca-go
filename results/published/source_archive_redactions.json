@@ -1,0 +1,86 @@
+[
+  {
+    "archive": "reports/research_followup/reproduction_sources/098de88743b09b7d333968c827e508a4df1f6820.tar.gz",
+    "original_archive_sha256": "2afd6c298d0184710ef5d563a0fb35ec4256095019cb51017422e81169afdc0c",
+    "public_archive_sha256": "4f935d52e6cc3be7c47e7eb55fb8e5ac022145cf4ac6a0b7ec83aa631fad7c15",
+    "public_bytes": 147195,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/0a181cc4004c1073420dbaf85699a0e6c7c20c2a.tar.gz",
+    "original_archive_sha256": "9d11bb297d75b463b926abc1671840a4f60c84ebc5245ac6859324c3cfa3cded",
+    "public_archive_sha256": "191938b69bb7a484931eda831c6be4a7cf8b7daea66e6928963e05831ac49618",
+    "public_bytes": 122828,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/0bbb618be0c0e51350ef7a96fdd0d4c2dd06907b.tar.gz",
+    "original_archive_sha256": "41c603693decaeb7768a9e13cb678bd23d21a2fd3912a527483491fe36a233be",
+    "public_archive_sha256": "c156ae7d55bfbdeffbf3e0e5765930b5a7970378a0823d2befccc515eee3c1d8",
+    "public_bytes": 183842,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/0bd61784461c44ed97c1e56ee74cd50eda75ad8b.tar.gz",
+    "original_archive_sha256": "edf8f4045334eec74d80a0f5cf0a6d0480b9dc0e4bed0fdb2bae01ca4da655d8",
+    "public_archive_sha256": "09d08d6deb4616d0948771e56492e2671a9e24a0a0dd284e76a6eb0eff162e0f",
+    "public_bytes": 184565,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/13494d202c69b00526d74d544b7d880fdb34190c.tar.gz",
+    "original_archive_sha256": "fcd00ffae59bc313d05fae67d869fc60044c4a434c0ef86a52971de41a70f016",
+    "public_archive_sha256": "f6486a7bbbcf5dbb87e9715a141fe657068046a90ed2a79dc08ab196e6fab199",
+    "public_bytes": 146565,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/397de4e7190de157eb3296a773334a3d9f68a8f5.tar.gz",
+    "original_archive_sha256": "795e8173910e703d920328dc8f8b2f2ff2c90c76cb09070aa155d11e29252c35",
+    "public_archive_sha256": "18f1cf5d1a9cba11b80ba293c926d67d7ee872c0b89cfc57c16be1ddacddc4ed",
+    "public_bytes": 141235,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/7983185ecb91e13537f5d7e62f65c04c073646af.tar.gz",
+    "original_archive_sha256": "e16777892d9e2db65cf295fc5212fbc6cd773783593daae7e0e2dd508030acc0",
+    "public_archive_sha256": "f61bc233b589c5c06a5b947580855608a3ecbdfc4d0ade52febdab1ec4bf43ae",
+    "public_bytes": 136331,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/9d746ae277148ff18a94022f3dbbfd46a99652d0.tar.gz",
+    "original_archive_sha256": "fb90da149d2b841f20d053b33277e5f8fad5c20971f0dd19c7393e14560e48f8",
+    "public_archive_sha256": "51719fe321a14110fed3d84e95b0bad740c30c487ae9b4c6448a78dd0defc7ec",
+    "public_bytes": 132681,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/aa3752b2286c4a4534b21c9b38a4b727bb9a1c69.tar.gz",
+    "original_archive_sha256": "14ec044f0b3a71532f2735828e083e9ce27a71871d8b974fd85f2cf4ee914925",
+    "public_archive_sha256": "e985342a85d88d77a789aae6d3704b802e3c8b49cc5eedefd3a75602c3278ab2",
+    "public_bytes": 160219,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/ccd1943a4de4f12ea330e894307c9a57accdd881.tar.gz",
+    "original_archive_sha256": "e4f15c63d1371c7a9f176b6ad86238819514e35ef135c7651b3f01f67b4aaae1",
+    "public_archive_sha256": "06fd9d39dca12bfc483ab8efe766744834cc57a6d124c0de5bdada9732d16049",
+    "public_bytes": 179239,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/d5ada54e4258a038916a46482d6736fe4464a98a.tar.gz",
+    "original_archive_sha256": "58dded1bda871f83f045025aae0260611bf3886bf18f8dd7a803e2c79752a431",
+    "public_archive_sha256": "e7b067dd82d5ec95320c17a8a078b3bc101e5d2917c2196b36d54985b31ee4b9",
+    "public_bytes": 145992,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  },
+  {
+    "archive": "reports/research_followup/reproduction_sources/fe6f3ab0ba8048f41aa4d7312a1bd1eb14b865ca.tar.gz",
+    "original_archive_sha256": "384948bc2893df969840b159197d8d3fc50bd1c1150951a0ecd5fb97785a92cf",
+    "public_archive_sha256": "6bddc14eda3f892cc10668795c5aee498775024644c67b6922174f1fe2b5c251",
+    "public_bytes": 144320,
+    "changes": "Editable-install path made relative; tar owner IDs/names and extended headers removed; historical browser-tool host paths anonymized. Python source unchanged."
+  }
+]
